@@ -1,7 +1,7 @@
-#Building Blocks
+# Building Blocks
 Our project will be a web based application hosting an assortment of educational (or classic) games, which tracks the users performance. The games will likely be geared toward education, with a target audience of adults with small children, whom they are able to play the games along side with.
 
-#General Information
+# General Information
 ## 1: Who you’re working with (you and your team members)?
 Jake Elrod, Robert Bonham, Robert Elizondo, Jacob Lopez, Oscar Fortanel Benitiez
 ## 2: What you’re creating?
@@ -21,7 +21,7 @@ We are missing web game development experience. None of the developers have ever
 * Bootstrap
 * More to come as we progress
 
-#Features
+# Features
 * Multiple Game Options - The user should have an assortment of options for what games to play depending on their input age group.
 * User progress tracking - Keeps track of how well the user has performed over time. May add features to send a progress report to a specified email at regular intervals.
     * Relevant Story: I, Robert, would like to create a web application that allows you to play classic games that a score how well someone did
@@ -30,6 +30,6 @@ We are missing web game development experience. None of the developers have ever
 * Leaderboard - Displays the top-performers out of all users of the application.
 
 
-#Acknowledgements
+# Acknowledgements
 
-#Contact
+# Contact
