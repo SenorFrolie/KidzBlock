@@ -11,7 +11,8 @@ Our primary audience would be adults with small children, who want an interactiv
 ## 4: Why you’re doing this, the impact or change you hope to make?
 From this project we hope to gain the ability to make a frictionless webpage which could potentially be transformed into a model application. Learning how to create an interactive website that is easy enough to be used by children will be a new feat. We hope to gain insight on how to piece together a coherent series of interactive web pages that could later be adapted into a mobile application. We hope that this web application will impact underprivileged youth and enable them to perform at a higher level during the beginning of their scholastic career. 
 ## Image
-We're working on it okay
+![alt text](http:https://i.postimg.cc/k4tnM8XV/Kidz-Blocks.png)
+
 ## Missing
 We are missing web game development experience. None of the developers have ever built a web based interactive game. Also lack in design, this will be important because the design must be simplistic for our audience base.  
 
