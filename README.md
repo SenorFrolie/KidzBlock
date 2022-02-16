@@ -16,10 +16,12 @@ We're working on it okay
 We are missing web game development experience. None of the developers have ever built a web based interactive game. Also lack in design, this will be important because the design must be simplistic for our audience base.  
 
 # Technologies Used
-* HTML/CSS/Javascript
-* React
-* Bootstrap
-* More to come as we progress
+* JavaScript/ReactJS
+* CSS/Bootstrap
+* React Router
+* Material UI
+* NPM/NPX
+* Firebase(Database)
 
 # Features
 * Multiple Game Options - The user should have an assortment of options for what games to play depending on their input age group.
