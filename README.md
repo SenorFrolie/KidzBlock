@@ -19,11 +19,17 @@ We are missing web game development experience. None of the developers have ever
 
 # Technologies Used
 * JavaScript/ReactJS
+    * [JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript)
 * CSS/Bootstrap
+    * [CSS](https:https://developer.mozilla.org/en-US/docs/Web/API/CSS)
 * React Router
+    * [Bootstrap](https://developer.mozilla.org/en-US/docs/Glossary/Bootstrap)
 * Material UI
+    * [MaterialUI](https://mui.com/)
 * NPM/NPX
+    * [NPM](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/development_environment)
 * Firebase(Database)
+    * [Firebase](https://firebase.google.com/docs?gclid=Cj0KCQiAu62QBhC7ARIsALXijXScUqtPtb4zVAWlPBhcEojJf0qBy3yxJeKlJpHiXlm5YBp0rTElspQaAqeKEALw_wcB&gclsrc=aw.ds)
 
 # Features
 * Simple UI Web App - A web application with a simple and responsive UI
