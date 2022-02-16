@@ -23,7 +23,7 @@ We are missing web game development experience. None of the developers have ever
 * CSS/Bootstrap
     * [CSS](https:https://developer.mozilla.org/en-US/docs/Web/API/CSS)
 * React Router
-    * [Bootstrap](https://developer.mozilla.org/en-US/docs/Glossary/Bootstrap)
+    * [Bootstrap](https://reactrouter.com/)
 * Material UI
     * [MaterialUI](https://mui.com/)
 * NPM/NPX
