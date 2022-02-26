@@ -4,40 +4,50 @@ import {useEffect, useState} from 'react';
 //import database from "./firebase";
 import './TinderCards.css';
 import { IconButton } from '@mui/material';
+import { Route, Link} from "react-router-dom"
+
+// An array of what is in the containers
 
 function TinderCards() {
-    const [people, setPeople] = useState([
+
+    const [people1, setPeople1] = useState([
         {
             name: "1st and 2nd Grade",
             url: 
                 "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtcMcZkB-rKi9x9_S6jhSDLPQb8H81j4B66g&usqp=CAU"
+                
         },
+    ]);
+
+    const [people2, setPeople2] = useState([
         {
+        
             name: "3rd and 4th Grade",
             url: 
                 "https://as2.ftcdn.net/v2/jpg/01/12/40/89/1000_F_112408906_RalYyQ3bYdVtrQD9cVN2h0TuvM9CT9Zk.jpg"
+        
         },
+ 
+    ]);
+
+    const [people3, setPeople3] = useState([
         {
             name: "5th and 6th Grade",
             url:
                 "https://knowtechie.com/wp-content/uploads/2021/03/dogecoin-meme-1000x600.jpg"
         },
     ]);
-/*
-    useEffect(() => {
-        database.collection('users').onSnapshot(snapshot => (
-            setPeople(snapshot.docs.map(doc => doc.data()))
-        ))
-        //this will run ONCE when the component loads, and never again
-    }, []);
-*/
 
 
+    // The card Containers itself
   return (
+      
     <div> 
+        
         <div className="tinderCards__cardContainer">
-    
-        {people.map(person => (
+     
+        {people1.map(person => (
+            <Link to="/grade1thr2">
             <IconButton>
             <TinderCard
             className="swipe"
@@ -52,11 +62,49 @@ function TinderCards() {
                 </div>
             </TinderCard>
             </IconButton>
+            </Link>
         ))}
-        </div>
-    </div>
-    
+                {people2.map(person => (
+            <Link to="/grade3thr4">
+            <IconButton>
+            <TinderCard
+            className="swipe"
+            key={person.name}
+            preventSwipe={['up','down','left','right']}
+            >
+                <div 
+                style={{ backgroundImage: `url(${person.url})` }}
+                className="card"
+                >
+                    <h3>{person.name}</h3>
+                </div>
+            </TinderCard>
+            </IconButton>
+            </Link>
+        ))}
+                {people3.map(person => (
+            <Link to="/grade5thr6">
+            <IconButton>
+            <TinderCard
+            className="swipe"
+            key={person.name}
+            preventSwipe={['up','down','left','right']}
+            >
+                <div 
+                style={{ backgroundImage: `url(${person.url})` }}
+                className="card"
+                >
+                    <h3>{person.name}</h3>
+                </div>
+            </TinderCard>
+            </IconButton>
+            </Link>
+        ))}
+        </div>  
+    </div> 
   );
 }
+
+
 
 export default TinderCards
