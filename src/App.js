@@ -2,26 +2,27 @@ import React from 'react'
 import Header from './Header';
 import './App.css';
 import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
-import TinderCards from "./TinderCards"
+import TinderCards from "./pages/TinderCards";
+import FirstnSecond from './pages/FirstnSecond';
+import ThirdnFourth from './pages/ThirdnFourth';
+import FifthnSix from './pages/FifthnSix';
+import NavBar from './components/NavBar';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <Header />
+    <>
       <Router>
+        <NavBar />
         <Switch>
-          <Route path="/profile">
-            <h1>This is the profile page</h1>
-          </Route>
-          <Route path="/">
-            <h1>Welcome to Kidz Blocks! Please select your age group:</h1>
-            <TinderCards />
-            {/*game buttons*/}
-          </Route>
+          <Route path='/' exact component={TinderCards} />
+          <Route path='/FirstnSecond' exact component={FirstnSecond} />
+          <Route path='/ThirdnFourth' exact component={ThirdnFourth} />
+          <Route path='/FifthnSix' exact component={FifthnSix} />
         </Switch>
       </Router>
-
-    </div>
+    </>
   );
 }
 

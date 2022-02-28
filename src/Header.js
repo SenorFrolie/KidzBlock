@@ -4,30 +4,50 @@ import MenuIcon from '@mui/icons-material/Menu';
 import logo from './kblogo.png';
 import IconButton from '@material-ui/core/IconButton';
 import LeaderboardIcon from '@mui/icons-material/Leaderboard';
+import { Link } from "react-router-dom";
+import { CenterFocusStrong } from "@material-ui/icons";
 
 function Header() {
   return (
     // BEM
     <div className="header">
-        <IconButton>
-        <AccountCircleIcon className="header__icon" fontSize="large" />
-        </IconButton>
-        <img 
-         className="header__logo"
-         src={logo} 
-         alt="Kidz-Blocks Logo"
-        />
+ 
 
+
+    <Link to="/">
         <IconButton>
-        <MenuIcon className="header__icon" fontSize="large" />
-        </IconButton>
-        {/*
-        <IconButton>
-        <LeaderboardIcon className="header__icon" fontSize="large" />
-        </IconButton>
-        */}
+          <img 
+           className="header__logo"
+          src={logo} 
+            alt="Kidz-Blocks Logo"
+        />
+          </IconButton>
+    </Link>
+
+    <Link to="/profile">
+  <IconButton>
+  <AccountCircleIcon className="header__icon" fontSize="large" />
+  </IconButton>
+</Link>
+      
+      
+
       </div>
   );
 }
 
 export default Header
+
+
+/*{
+
+==============
+       <IconButton>
+        <MenuIcon className="header__icon" fontSize="large" />
+        </IconButton>
+    
+===========
+
+
+
+}*/ 
