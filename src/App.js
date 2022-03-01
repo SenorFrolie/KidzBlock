@@ -14,6 +14,7 @@ function App() {
   return (
     <>
       <Router>
+      <Header />
         <NavBar />
         <Switch>
           <Route path='/' exact component={TinderCards} />
