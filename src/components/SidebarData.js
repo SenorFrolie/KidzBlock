@@ -28,5 +28,11 @@ export const SidebarData = [
         icon: <IoIcons.IoIosSchool />,
         cName: 'nav-text'   
     },
+    {
+        title: 'LeaderBoard',
+        path: '/LeaderBoard',
+        icon: <IoIcons.IoIosSchool />,
+        cName: 'nav-text'    
+    },
 
 ]
