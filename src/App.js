@@ -14,8 +14,7 @@ function App() {
   return (
     <>
       <Router>
-      <Header />
-        <NavBar />
+      <Header />  
         <Switch>
           <Route path='/' exact component={TinderCards} />
           <Route path='/FirstnSecond' exact component={FirstnSecond} />
@@ -28,3 +27,4 @@ function App() {
 }
 
 export default App;
+//      

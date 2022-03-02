@@ -6,14 +6,13 @@ import IconButton from '@material-ui/core/IconButton';
 import LeaderboardIcon from '@mui/icons-material/Leaderboard';
 import { Link } from "react-router-dom";
 import { CenterFocusStrong } from "@material-ui/icons";
+import NavBar from "./components/NavBar";
 
 function Header() {
   return (
     // BEM
     <div className="header">
- 
-
-
+    <NavBar />
     <Link to="/">
         <IconButton>
           <img 
@@ -24,12 +23,12 @@ function Header() {
           </IconButton>
     </Link>
 
-    <Link to="/profile">
-  <IconButton>
-  <AccountCircleIcon className="header__icon" fontSize="large" />
-  </IconButton>
+ <Link to="/profile">
+    <IconButton>
+       <AccountCircleIcon className="header__icon" fontSize="large" />
+    </IconButton>
 </Link>
-      
+     
       
 
       </div>
