@@ -21,7 +21,7 @@ export const Leaderboard = [
         dt: "2021-08-17"
     },
     {
-        name: "Henrietta Hummingbird",
+        name: "Henry Hummingbird",
         grade: "5th Grade",
         score : 300,
         img: "https://st2.depositphotos.com/7760196/10587/i/450/depositphotos_105872326-stock-photo-bird-hummingbird-cartoon.jpg",

@@ -5,7 +5,6 @@
     font-family: "Poppins", cursive;
     margin: 0;
 }
-*/
 
 :root{
     --color-dark: #2C3131;
@@ -14,12 +13,13 @@
 
 
 #main{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
+*/
 
 
 .board {
@@ -42,6 +42,8 @@
     border-radius: 50px;
     background-color: transparent;
     cursor: pointer;
+    --color-dark: #2C3131;
+    --color-light: #F3F3F2;
 }
 
 .board .duration > button:hover{

@@ -39,7 +39,7 @@ function between(data, between){
         return previous <= userDate && today >= userDate;
     })
     return filter.sort((a,b)=> {
-        if (a.score === b.score){
+        if (a.score == b.score){
             return b.score-a.score;
         } else{
             return b.score-a.score;

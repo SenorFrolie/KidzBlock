@@ -1,5 +1,5 @@
-.narbar { 
-    background-color:aquamarine;
+.navbar { 
+    /*background-color:aquamarine;*/
     height: 80px;
     display:flex;
     justify-content: start;
@@ -27,6 +27,7 @@
 
 
 .nav-menu.active{
+    background-color: aquamarine;
     left: 0;
     transition: 350ms;
 }
