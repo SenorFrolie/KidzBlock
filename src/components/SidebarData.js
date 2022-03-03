@@ -34,5 +34,11 @@ export const SidebarData = [
         icon: <IoIcons.IoIosSchool />,
         cName: 'nav-text'    
     },
+    {
+        title: 'GamePage',
+        path: '/game-pages/GamePage',
+        icon: <IoIcons.IoIosSchool />,
+        cName: 'nav-text'    
+    },
 
 ]

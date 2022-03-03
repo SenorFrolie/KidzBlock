@@ -9,6 +9,7 @@ import FifthnSix from './pages/FifthnSix';
 import NavBar from './components/NavBar';
 import LeaderBoard from './pages/LeaderBoard';
 import Profile from './pages/Profile';
+import GamePage from './pages/game-pages/GamePage'
 
 
 
@@ -24,6 +25,7 @@ function App() {
           <Route path='/FifthnSix' exact component={FifthnSix} />
           <Route path='/LeaderBoard' exact component={LeaderBoard} />
           <Route path='/Profile' exact component={Profile} />
+          <Route path='/game-pages/GamePage' exact component={GamePage} />
         </Switch>
       </Router>
     </>

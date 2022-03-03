@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import './LeaderBoard.css'
 import Profiles from './../components/Profiles'
 import { Leaderboard } from './../components/ProfileDataBase'
+import { Route, Link} from "react-router-dom"
 
 /* Used to handle click events for filtering leaderboard by time */
 function LeaderBoard() {
@@ -15,10 +16,18 @@ function LeaderBoard() {
   return (
     <div className="board">
         <h1 className='leaderboard'>LeaderBoard Page</h1>
-        <div className="duration">
-            <button onClick={handleClick} data-id='7'>7 Days</button>
-            <button onClick={handleClick} data-id='30'>30 Days</button>
-            <button onClick={handleClick} data-id='0'>All Time</button>
+        <div className="windowSelector">
+            <Link to="/game-pages/GamePage">
+                <button>Game Window</button>
+            </Link>
+            <Link to="/LeaderBoard">
+                <button>LeaderBoard</button>
+            </Link>
+            <div className="duration">
+                <button onClick={handleClick} data-id='7'>7 Days</button>
+                <button onClick={handleClick} data-id='30'>30 Days</button>
+                <button onClick={handleClick} data-id='0'>All Time</button>
+            </div>
         </div>
         <Profiles Leaderboard={between(Leaderboard,period)}></Profiles>
     </div>
