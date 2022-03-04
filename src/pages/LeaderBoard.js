@@ -2,7 +2,11 @@ import React, {useState} from 'react'
 import './LeaderBoard.css'
 import Profiles from './../components/Profiles'
 import { Leaderboard } from './../components/ProfileDataBase'
-import { Route, Link} from "react-router-dom"
+import { Route, Link, NavLink } from "react-router-dom"
+import { NavigateBefore } from '@material-ui/icons'
+import { Button} from 'react-bootstrap';
+import styled, { css } from 'styled-components'
+
 
 /* Used to handle click events for filtering leaderboard by time */
 function LeaderBoard() {
@@ -13,25 +17,52 @@ function LeaderBoard() {
         setPeriod(e.target.dataset.id)
     }
 
-  return (
-    <div className="board">
-        <h1 className='leaderboard'>LeaderBoard Page</h1>
-        <div className="windowSelector">
-            <Link to="/game-pages/GamePage">
-                <button>Game Window</button>
-            </Link>
-            <Link to="/LeaderBoard">
-                <button>LeaderBoard</button>
-            </Link>
+    const NavUnlisted = styled.ul`
+    display: flex;
+    a {
+      text-decoration: none;
+    }
+    li {
+      color: red;
+      margin: 0 0.8rem;
+      font-size: 1.3rem;
+      position: relative;
+      list-style: none;
+      display: flex;
+    justify-content: center;
+    }
+  
+    .current {
+      li {
+        border-bottom: 2px solid black;
+      }
+    }
+  `;
+
+    const links = [
+        {name: "GamePage", path:"game-pages/GamePage"},
+        {name: "LeaderBoard", path:"/LeaderBoard"},
+    ];
+
+    return (
+        <><div className="window">
+            <NavUnlisted>
+      {links.map((link,index) => (
+        <NavLink key={index} to={link.path} exact activeClassName="current">
+          <li>{link.name}</li>
+        </NavLink>
+      ))}
+    </NavUnlisted>
+        </div>
+        <div className="board">
+            <h1 className='leaderboard'>LeaderBoard Page</h1>
             <div className="duration">
                 <button onClick={handleClick} data-id='7'>7 Days</button>
                 <button onClick={handleClick} data-id='30'>30 Days</button>
                 <button onClick={handleClick} data-id='0'>All Time</button>
             </div>
-        </div>
-        <Profiles Leaderboard={between(Leaderboard,period)}></Profiles>
-    </div>
-
+            <Profiles Leaderboard={between(Leaderboard, period)}></Profiles>
+        </div></>
   );
 }
 
