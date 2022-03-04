@@ -27,7 +27,7 @@ justify-content: center;
 `;
 
 const links = [
-    {name: "GamePage", path:"game-pages/GamePage"},
+    {name: "GamePage", path:"/game-pages/GamePage"},
     {name: "LeaderBoard", path:"/LeaderBoard"},
 ];
 

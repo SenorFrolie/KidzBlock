@@ -15,7 +15,6 @@ export const SidebarData = [{
 },
     {
         title: 'FirstnSecond',
-        path: '/FirstnSecond',
         icon: <IoIcons.IoIosSchool />,
         cName: 'nav-text',   
         iconClosed: <RiIcons.RiArrowDownSFill />,
@@ -25,7 +24,7 @@ export const SidebarData = [{
         subNav:[
             {
                 title: 'Game1',
-                path: '/pages/game-pages/GamePage.js',
+                path: '/game-pages/GamePage',
                 icon: <IoIcons.IoIosSchool />,
             },
             // Add addition games here **copy similar layout from subNav**
@@ -33,7 +32,7 @@ export const SidebarData = [{
     },
     {
         title: 'ThirdnFourth',
-        path: '/ThirdnFourth',
+        //path: '/ThirdnFourth',
         icon: <IoIcons.IoIosSchool />,
         cName: 'nav-text',   
         iconClosed: <RiIcons.RiArrowDownSFill />,
@@ -43,7 +42,7 @@ export const SidebarData = [{
         subNav:[
             {
                 title: 'Game1',
-                path: '/pages/game-pages/GamePage.js',
+                path: '/game-pages/GamePage',
                 icon: <IoIcons.IoIosSchool />,
             },
             // Add addition games here **copy similar layout from subNav**
@@ -51,7 +50,7 @@ export const SidebarData = [{
     },
     {
         title: 'FifthnSix',
-        path: '/FifthnSix',
+        //path: '/FifthnSix',
         icon: <IoIcons.IoIosSchool />,
         cName: 'nav-text',   
         iconClosed: <RiIcons.RiArrowDownSFill />,
@@ -60,7 +59,7 @@ export const SidebarData = [{
         subNav:[
             {
                 title: 'Game1',
-                path: '/pages/game-pages/GamePage.js',
+                path: '/game-pages/GamePage',
                 icon: <IoIcons.IoIosSchool />,
             },
             // Add addition games here **copy similar layout from subNav**
@@ -68,7 +67,7 @@ export const SidebarData = [{
     },
     {
         title: 'LeaderBoards',
-        path: '/pages/LeaderBoard.js',
+        path: '/LeaderBoard',
         icon: <IoIcons.IoIosSchool />,
         cName: 'nav-text',   
 
