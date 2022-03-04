@@ -7,6 +7,9 @@ import FirstnSecond from './pages/FirstnSecond';
 import ThirdnFourth from './pages/ThirdnFourth';
 import FifthnSix from './pages/FifthnSix';
 import NavBar from './components/NavBar';
+import LeaderBoard from './pages/LeaderBoard';
+import Profile from './pages/Profile';
+import GamePage from './pages/game-pages/GamePage'
 
 
 
@@ -20,6 +23,9 @@ function App() {
           <Route path='/FirstnSecond' exact component={FirstnSecond} />
           <Route path='/ThirdnFourth' exact component={ThirdnFourth} />
           <Route path='/FifthnSix' exact component={FifthnSix} />
+          <Route path='/LeaderBoard' exact component={LeaderBoard} />
+          <Route path='/Profile' exact component={Profile} />
+          <Route path='/game-pages/GamePage' exact component={GamePage} />
         </Switch>
       </Router>
     </>
