@@ -1,0 +1,11 @@
+This document will be targeted towards the research of react and how to connect multiple 
+pages together through clicking a button. At the end It came from the use of Link
+
+by using this syntax 
+
+<Link path to="/somepath">
+
+
+</Link>
+
+you enclapulate the button you want the Linker to path to once clicked. 

@@ -12,7 +12,7 @@ function TinderCards() {
 
     const [people1, setPeople1] = useState([
         {
-            name: "1st and 2nd Grade",
+            name: "Puzzles",
             url: 
                 "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtcMcZkB-rKi9x9_S6jhSDLPQb8H81j4B66g&usqp=CAU"
                 
@@ -22,7 +22,7 @@ function TinderCards() {
     const [people2, setPeople2] = useState([
         {
         
-            name: "3rd and 4th Grade",
+            name: "Letters & Numbers",
             url: 
                 "https://as2.ftcdn.net/v2/jpg/01/12/40/89/1000_F_112408906_RalYyQ3bYdVtrQD9cVN2h0TuvM9CT9Zk.jpg"
         
@@ -32,7 +32,7 @@ function TinderCards() {
 
     const [people3, setPeople3] = useState([
         {
-            name: "5th and 6th Grade",
+            name: "Action Adventure",
             url:
                 "https://knowtechie.com/wp-content/uploads/2021/03/dogecoin-meme-1000x600.jpg"
         },
