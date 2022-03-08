@@ -1,48 +1,70 @@
-import React, {useState} from 'react'
-import MenuIcon from '@mui/icons-material/Menu';
+import React, {useState} from 'react';
+import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
-import * as IoIcons from "react-icons/io";
-import {Link} from "react-router-dom";
 import { SidebarData } from './SidebarData';
-import './NavBar.css';
-import {IconContext} from 'react-icons';
-function NavBar() {
+import SubMenu from './SubMenu';
 
-    const [sidebar, setSidebar] = useState(false)
+const Nav = styled.div `
+background: aquamarine
+height: 80px
+display: flex;
+justify-content: flex-start;
+align-items: center;
+`;
 
-    const showSidebar = () => setSidebar(!sidebar);
+const NavIcon = styled(Link)`
+  margin-left : 2rem;
+  font-size: 2rem;
+  height: 80px 
+  display: flex;
+  justify-content: flex-start;
+  align-item: center;
 
-    return (
-        <>
-          <IconContext.Provider value={{ color: '#fff' }}>
-            <div className='navbar'>
-              <Link to='#' className='menu-bars'>
-                <FaIcons.FaBars onClick={showSidebar} />
-              </Link>
-            </div>
-            <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
-              <ul className='nav-menu-items' onClick={showSidebar}>
-                <li className='navbar-toggle'>
-                  <Link to='#' className='menu-bars'>
-                    <AiIcons.AiOutlineClose />
-                  </Link>
-                </li>
-                {SidebarData.map((item, index) => {
-                  return (
-                    <li key={index} className={item.cName}>
-                      <Link to={item.path}>
-                        {item.icon}
-                        <span>{item.title}</span>
-                      </Link>
-                    </li>
-                  );
-                })}
-              </ul>
-            </nav>
-            </IconContext.Provider> 
-        </>
-    );
+`;
+
+const SideBarNav = styled.nav`
+  background: aquamarine;
+  width: 250px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: ${({sidebar}) => (sidebar ? '0': '-100%')};
+  transition: 350ms;
+  z-index:10;
+`;
+
+const SideBarWrap = styled.div`
+width: 100%;
+
+`;
+
+const NavBar = () => { 
+
+  const [sidebar, setSidebar] = useState(false);
+
+  const showSidebar = () => setSidebar(!sidebar);
+
+  return <div>
+    <Nav>
+      <NavIcon to = "#">
+            <FaIcons.FaBars onClick ={showSidebar} />
+      </NavIcon>
+    </Nav>
+    <SideBarNav sidebar ={sidebar}>
+      <SideBarWrap>
+        <NavIcon to = "#">
+             <AiIcons.AiOutlineClose onClick ={showSidebar} />
+        </NavIcon>
+        {SidebarData.map( (item,index) => {
+            return <SubMenu item={item} key={item} />;
+        })}
+      </SideBarWrap>
+    </SideBarNav>
+  </div>
 }
 
-export default NavBar
+export default NavBar;
