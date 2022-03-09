@@ -46,7 +46,20 @@ We are missing web game development experience. None of the developers have ever
 
 # Sprint 1 - Contributions and Next Steps
 * Robert Bonham
-    * 
+    * Jira: KID-38 - Implement a drop menu for a sidebar menu
+        * For this task I implented the sidebar for easier navigation between games.
+    * Jira: KID-48 - Restructure Files for KidzBlocks to be easily navigated and for future components to be added
+        * I restructure the files for future development to make putting new implementation in the correct files.
+    * Jira: KID-33 - Determine what elements should be included on each webpages, and where they should be included (things like logo, navigation menu, and buttons)
+        * For the first sprint I just went with whatever what necessary at the time of implemenation and expect for the elements to be switched out for a more unified agreement between the team.
+    * Jira: KID-30 - Create a simple navigation interface for users to transition between games easily
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/ea1fd5ab92f54898b49234a0fd9387489a0d6dbb
+    * Jira: KID-44 - Research how to create a separate page after selecting a game
+        * The information to do this is avaiable in the Research-files/Research-notes file named Linker
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/2138d81de4c259d0de36c4cf40877a44052038a5
+    * Jira: KID-18 - Three Game Web Pages
+        * After restructing the file system i was able to create the three webpages for each of the grade groups we decided as a team. 
+    
 * Jacob Lopez
     * 
 * Jake Elrod
