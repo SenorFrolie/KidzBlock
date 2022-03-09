@@ -44,9 +44,61 @@ We are missing web game development experience. None of the developers have ever
 * Leaderboard - Displays the top-performers out of all users of the application.
     * Relevant Story: I, Robert Elizondo, as a student learning how to program, would like to learn how to track and display personalized user statistics about their use of the games.
 
+# Sprint 1 - Contributions and Next Steps
+* Robert Bonham
+    * Jira: KID-38 - Implement a drop menu for a sidebar menu
+        * For this task I implented the sidebar for easier navigation between games.
+    * Jira: KID-48 - Restructure Files for KidzBlocks to be easily navigated and for future components to be added
+        * I restructure the files for future development to make putting new implementation in the correct files.
+    * Jira: KID-33 - Determine what elements should be included on each webpages, and where they should be included (things like logo, navigation menu, and buttons)
+        * For the first sprint I just went with whatever what necessary at the time of implemenation and expect for the elements to be switched out for a more unified agreement between the team.
+    * Jira: KID-30 - Create a simple navigation interface for users to transition between games easily
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/ea1fd5ab92f54898b49234a0fd9387489a0d6dbb
+    * Jira: KID-44 - Research how to create a separate page after selecting a game
+        * The information to do this is avaiable in the Research-files/Research-notes file named Linker
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/2138d81de4c259d0de36c4cf40877a44052038a5
+    * Jira: KID-18 - Three Game Web Pages
+        * After restructing the file system i was able to create the three webpages for each of the grade groups we decided as a team. 
+    * Next Steps: I will likely begin researching and implementing the games the team have found during the first sprint to be added to their respected game pages. 
+
+    
+* Jacob Lopez
+    * 
+* Jake Elrod
+    * 
+* Oscar Fortanel Benitiez
+    * Jira Task: KID-36 - Setup server for API
+        * Created new Apache 2 Virtual Server to handle requests comming from the web app
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/0470a44c8863ff2ce3398e2722a9499a1a292397
+    * Jira Task: KID-40 - Design data base tables to keep records
+        * Designed data base and tables for accounts and high scores    
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/7d9933e5f74a30f8bfdf8f5994b4d5e24d83c06f
+    * Jira Task: KID-35 - Create and deploy data base and API end point prototype
+        * Created simple API end point as proof of concept
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/37b2058b4b3b363c4d03c4c9134d8e0d7b7df46d
+    * Jira Task: KID-23 - Create prototype endpoint to retreive information (leaderboard)
+        * Created basic script to output a JSON response with the contetns from the leader board table
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/811637d187a434845b7a2a3b1583fde29c2df7b8
+    * Next steps: I will continue to work on the API and the data base in order to get it connected to the website.
+* Robert Elizondo
+    * Jira Task: KID-28 - Design and create the front page and accompanying style sheet
+        * For this task I created the initial mock-up of the front page, as well as creating the project directory structure with NPM.
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/879b4da03442c6dd1744c5676838a379061780a9
+    * Jira Task: KID-39 - Design and create the page for the leaderboard and accompanying style sheet
+        * For this task I created the Leaderboard page, and made the scores that it displays sortable by time. 
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/d81b0c2b4994b7b9803d24d80035dfb26bbce91a
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/68b6d49e31fe6d0c6f4d3c4fb8075fd794c31d5b
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/71329e5116939ffa87d05a24eefb9b2e14148f00
+    * Jira Task: KID-29 - Design and create the individual game pages and accompanying style sheet
+        * For this task I created the page where the games will actually the played (without including the game, just the container where the window will be), and connected it to the leaderboard page.
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/2dff5e788e76702e04210813388dd3f6bced199f
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/0a7bc03cd3ab286e2957f194a77fdb3f30c90118
+    * Jira Task: KID-37 - Make sure all the pages can be accessed from any other page, and ensure all the hyperlinks work
+        * For this task I fixed some of the issues we had been having with navigating the website with the navigation menu and between the game page and leaderboard page.
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/d484d4942c6a76c8881d6c7a6c472de70c5e08fb
+    * Next Steps: I will likely begin finding and implementing a testing framework that works with React, then writing some simple test cases.
+
 
 # Acknowledgements
 * Logo by: Jacob Lopez 
 * referenced: EnvatoElements.com
-
-# Contact
