@@ -59,6 +59,8 @@ We are missing web game development experience. None of the developers have ever
         * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/2138d81de4c259d0de36c4cf40877a44052038a5
     * Jira: KID-18 - Three Game Web Pages
         * After restructing the file system i was able to create the three webpages for each of the grade groups we decided as a team. 
+    * Next Steps: I will likely begin researching and implementing the games the team have found during the first sprint to be added to their respected game pages. 
+
     
 * Jacob Lopez
     * 
