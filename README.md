@@ -30,6 +30,10 @@ We are missing web game development experience. None of the developers have ever
     * [NPM](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/development_environment)
 * Firebase(Database)
     * [Firebase](https://firebase.google.com/docs?gclid=Cj0KCQiAu62QBhC7ARIsALXijXScUqtPtb4zVAWlPBhcEojJf0qBy3yxJeKlJpHiXlm5YBp0rTElspQaAqeKEALw_wcB&gclsrc=aw.ds)
+* API
+    * Apache 
+    * PHP
+    * MySQL
 
 # Features
 * Simple UI Web App - A web application with a simple and responsive UI
