@@ -59,10 +59,21 @@ We are missing web game development experience. None of the developers have ever
         * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/2138d81de4c259d0de36c4cf40877a44052038a5
     * Jira: KID-18 - Three Game Web Pages
         * After restructing the file system i was able to create the three webpages for each of the grade groups we decided as a team. 
+    * Next Steps: I will likely begin researching and implementing the games the team have found during the first sprint to be added to their respected game pages. 
+
     
 * Jacob Lopez
-    * 
-
+    * Design board creation. 
+        *https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/3945ba0e7866407c9a57c6eee3451eb65b4590fc
+    * Logo design 
+        *https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/55e4ea331df3998adfcd46d4a81049a8feff917f
+    * User model diagram
+        *https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/4152db0dc9c599203c2ae9a7d2af279eb733a257
+    * Website background creation 
+        *https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/8ad477da4030cb4bc078b2c18ca670c01695cc24
+    * Research
+      *https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/0199db6c6706643461b69d00594ccb489dceca89
+      *Next Steps: I will working to inegrate the games to back end and make sure they are playable and edit game code to fit the overall aesthetic of the website. 
 * Jake Elrod
     * Jira Task: KID-21 - Find 3 games per group (9 games total) from github to be later integrated into the website 
         * For this task I researched and found 9 total games from github that will be later implemented during sprint 2&3.
