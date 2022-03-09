@@ -63,15 +63,23 @@ We are missing web game development experience. None of the developers have ever
 
     
 * Jacob Lopez
-    * Design board creation. 
+    * Design board creation.
+        * This board includes fonts, colors to be used, and various design elements that can be used as buttons, game icons or other front-end elements.
         *https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/3945ba0e7866407c9a57c6eee3451eb65b4590fc
-    * Logo design 
+    * Logo design
+        * The logo was the foundation of the design board and overall theme of the site. 
         *https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/55e4ea331df3998adfcd46d4a81049a8feff917f
     * User model diagram
+        * This was created to help guide those working on the front end for the first sprint so they could see a possible map of a layout to use for the future. 
+        * This diagram will help to insure what we implement is routed to correct pages and accesible from different places on the site
         *https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/4152db0dc9c599203c2ae9a7d2af279eb733a257
     * Website background creation 
+        * This was derived with the design board in-mind and was used to make the website custom to our group.
         *https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/8ad477da4030cb4bc078b2c18ca670c01695cc24
     * Research
+        * Though the sprint started with the idea that this research would help us choose which ages we should split our buttons up into there is not much research on the target ages we are going for. 
+        * Most information on content review for games is geared towards an older gamer with more levels of viloence and gore and sexuality where we are created more of a developmental/educational type website. 
+        * The commit date for this is so late in the sprint because information will continue to be added as I run accross more information. 
       *https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/0199db6c6706643461b69d00594ccb489dceca89
       *Next Steps: I will working to inegrate the games to back end and make sure they are playable and edit game code to fit the overall aesthetic of the website. 
 * Jake Elrod
