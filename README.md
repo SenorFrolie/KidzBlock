@@ -62,8 +62,33 @@ We are missing web game development experience. None of the developers have ever
     
 * Jacob Lopez
     * 
+
 * Jake Elrod
-    * 
+    * Jira Task: KID-21 - Find 3 games per group (9 games total) from github to be later integrated into the website 
+        * For this task I researched and found 9 total games from github that will be later implemented during sprint 2&3.
+        * In this task I created a file that lists the individual three categories and the three games in each category. This
+        * file also provides links to the github where these games can be found.
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/81a22a496ced5961dc318a6dd7b329e24848b1dd
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/cf76cc618cba4bf84cd3762e567d23f9dfbdac76
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/9ae592fb959c697b42c7df3d40b0bebc00857368
+    * Jira Task: KID-32 - Research to find what kinds of developmental games are effective, and what age groups they are appropriate for.
+        * In this task I researched the best way to categorize the 9 games for the user. Reasearch was accumulated and organized in a file
+        * that depicted the best way to categorize the games and what types of games would most likey belong to those categories. The information 
+        * reasearched in this task will be implimented throughout sprint 2&3.
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/81a22a496ced5961dc318a6dd7b329e24848b1dd
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/9ae592fb959c697b42c7df3d40b0bebc00857368
+    * Jira Task: KID-41 - Create image buttons for three age groups (These 3 buttons lead to the age groups gaming options)
+        * This task could not be completed until "Jira Task: KID-32" was completed. In this task I created three category 
+        * images that will later be assigned to their corresponding category buttons. These images were committed 
+        * in sprint 1 to be implimented into the buttons in sprint 2.
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/6c9363f4375d9b85820ae4552e49fe779b4b4327
+    * Jira Task: KID-43 - Create image buttons for the three games in each age groups (These 3 buttons lead to the individual game the user selects)
+        * This task could not be completed until "Jira Task: KID-21" was completed. In this task I created nine game images that will later be 
+        * assigned to their corresponding game buttons. These images were commited in sprint 1 to be implimented
+        * into the buttons in sprint 2.
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/9ae592fb959c697b42c7df3d40b0bebc00857368
+    * Next Steps: I will be assigning the 3 category and 9 game images to their resective buttons as well as impliment 3 of the 9 games
+    
 * Oscar Fortanel Benitiez
     * Jira Task: KID-36 - Setup server for API
         * Created new Apache 2 Virtual Server to handle requests comming from the web app
