@@ -44,9 +44,34 @@ We are missing web game development experience. None of the developers have ever
 * Leaderboard - Displays the top-performers out of all users of the application.
     * Relevant Story: I, Robert Elizondo, as a student learning how to program, would like to learn how to track and display personalized user statistics about their use of the games.
 
+# Sprint 1 - Contributions and Next Steps
+* Robert Bonham
+    *
+* Jacob Lopez
+    * 
+* Jake Elrod
+    * 
+* Oscar Fortanel Benitiez
+    * 
+* Robert Elizondo
+    * Jira Task: KID-28 - Design and create the front page and accompanying style sheet
+        * For this task I created the initial mock-up of the front page, as well as creating the project directory structure with NPM.
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/879b4da03442c6dd1744c5676838a379061780a9
+    * Jira Task: KID-39 - Design and create the page for the leaderboard and accompanying style sheet
+        * For this task I created the Leaderboard page, and made the scores that it displays sortable by time. 
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/d81b0c2b4994b7b9803d24d80035dfb26bbce91a
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/68b6d49e31fe6d0c6f4d3c4fb8075fd794c31d5b
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/71329e5116939ffa87d05a24eefb9b2e14148f00
+    * Jira Task: KID-29 - Design and create the individual game pages and accompanying style sheet
+        * For this task I created the page where the games will actually the played (without including the game, just the container where the window will be), and connected it to the leaderboard page.
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/2dff5e788e76702e04210813388dd3f6bced199f
+        https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/0a7bc03cd3ab286e2957f194a77fdb3f30c90118
+    * Jira Task: KID-37 - Make sure all the pages can be accessed from any other page, and ensure all the hyperlinks work
+        * For this task I fixed some of the issues we had been having with navigating the website with the navigation menu and between the game page and leaderboard page.
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/d484d4942c6a76c8881d6c7a6c472de70c5e08fb
+    * Next Steps: I will likely begin finding and implementing a testing framework that works with React, then writing some simple test cases.
+
 
 # Acknowledgements
 * Logo by: Jacob Lopez 
 * referenced: EnvatoElements.com
-
-# Contact
