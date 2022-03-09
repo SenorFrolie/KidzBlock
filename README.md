@@ -65,7 +65,19 @@ We are missing web game development experience. None of the developers have ever
 * Jake Elrod
     * 
 * Oscar Fortanel Benitiez
-    * 
+    * Jira Task: KID-36 - Setup server for API
+        * Created new Apache 2 Virtual Server to handle requests comming from the web app
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/0470a44c8863ff2ce3398e2722a9499a1a292397
+    * Jira Task: KID-40 - Design data base tables to keep records
+        * Designed data base and tables for accounts and high scores    
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/7d9933e5f74a30f8bfdf8f5994b4d5e24d83c06f
+    * Jira Task: KID-35 - Create and deploy data base and API end point prototype
+        * Created simple API end point as proof of concept
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/37b2058b4b3b363c4d03c4c9134d8e0d7b7df46d
+    * Jira Task: KID-23 - Create prototype endpoint to retreive information (leaderboard)
+        * Created basic script to output a JSON response with the contetns from the leader board table
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/811637d187a434845b7a2a3b1583fde29c2df7b8
+    * Next steps: I will continue to work on the API and the data base in order to get it connected to the website.
 * Robert Elizondo
     * Jira Task: KID-28 - Design and create the front page and accompanying style sheet
         * For this task I created the initial mock-up of the front page, as well as creating the project directory structure with NPM.
