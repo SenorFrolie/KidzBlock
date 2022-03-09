@@ -46,7 +46,7 @@ We are missing web game development experience. None of the developers have ever
 
 # Sprint 1 - Contributions and Next Steps
 * Robert Bonham
-    *
+    * 
 * Jacob Lopez
     * 
 * Jake Elrod
@@ -65,7 +65,7 @@ We are missing web game development experience. None of the developers have ever
     * Jira Task: KID-29 - Design and create the individual game pages and accompanying style sheet
         * For this task I created the page where the games will actually the played (without including the game, just the container where the window will be), and connected it to the leaderboard page.
         * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/2dff5e788e76702e04210813388dd3f6bced199f
-        https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/0a7bc03cd3ab286e2957f194a77fdb3f30c90118
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/0a7bc03cd3ab286e2957f194a77fdb3f30c90118
     * Jira Task: KID-37 - Make sure all the pages can be accessed from any other page, and ensure all the hyperlinks work
         * For this task I fixed some of the issues we had been having with navigating the website with the navigation menu and between the game page and leaderboard page.
         * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/d484d4942c6a76c8881d6c7a6c472de70c5e08fb
