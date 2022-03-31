@@ -23,9 +23,11 @@ function App() {
           <Route path='/FirstnSecond' exact component={FirstnSecond} />
           <Route path='/ThirdnFourth' exact component={ThirdnFourth} />
           <Route path='/FifthnSix' exact component={FifthnSix} />
+  {/* I don't think these get used? they exist in the NavBar
           <Route path='/LeaderBoard' exact component={LeaderBoard} />
           <Route path='/Profile' exact component={Profile} />
           <Route path='/game-pages/GamePage' exact component={GamePage} />
+  */}
         </Switch>
       </Router>
     </>
