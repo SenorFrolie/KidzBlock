@@ -72,7 +72,7 @@ export const SidebarData = [{
         cName: 'nav-text',   
 
     }
-]
+];
 
 
 /*
@@ -104,12 +104,6 @@ export const SidebarData = [
     {
         title: 'LeaderBoard',
         path: '/LeaderBoard',
-        icon: <IoIcons.IoIosSchool />,
-        cName: 'nav-text'    
-    },
-    {
-        title: 'GamePage',
-        path: '/game-pages/GamePage',
         icon: <IoIcons.IoIosSchool />,
         cName: 'nav-text'    
     },

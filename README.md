@@ -30,6 +30,10 @@ We are missing web game development experience. None of the developers have ever
     * [NPM](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/development_environment)
 * Firebase(Database)
     * [Firebase](https://firebase.google.com/docs?gclid=Cj0KCQiAu62QBhC7ARIsALXijXScUqtPtb4zVAWlPBhcEojJf0qBy3yxJeKlJpHiXlm5YBp0rTElspQaAqeKEALw_wcB&gclsrc=aw.ds)
+* API
+    * Apache 
+    * PHP
+    * MySQL
 
 # Features
 * Simple UI Web App - A web application with a simple and responsive UI
@@ -46,13 +50,82 @@ We are missing web game development experience. None of the developers have ever
 
 # Sprint 1 - Contributions and Next Steps
 * Robert Bonham
-    * 
+    * Jira: KID-38 - Implement a drop menu for a sidebar menu
+        * For this task I implented the sidebar for easier navigation between games.
+    * Jira: KID-48 - Restructure Files for KidzBlocks to be easily navigated and for future components to be added
+        * I restructure the files for future development to make putting new implementation in the correct files.
+    * Jira: KID-33 - Determine what elements should be included on each webpages, and where they should be included (things like logo, navigation menu, and buttons)
+        * For the first sprint I just went with whatever what necessary at the time of implemenation and expect for the elements to be switched out for a more unified agreement between the team.
+    * Jira: KID-30 - Create a simple navigation interface for users to transition between games easily
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/ea1fd5ab92f54898b49234a0fd9387489a0d6dbb
+    * Jira: KID-44 - Research how to create a separate page after selecting a game
+        * The information to do this is avaiable in the Research-files/Research-notes file named Linker
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/2138d81de4c259d0de36c4cf40877a44052038a5
+    * Jira: KID-18 - Three Game Web Pages
+        * After restructing the file system i was able to create the three webpages for each of the grade groups we decided as a team. 
+    * Next Steps: I will likely begin researching and implementing the games the team have found during the first sprint to be added to their respected game pages. 
+
+    
 * Jacob Lopez
-    * 
+    * Design board creation.
+        * This board includes fonts, colors to be used, and various design elements that can be used as buttons, game icons or other front-end elements.
+        *https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/3945ba0e7866407c9a57c6eee3451eb65b4590fc
+    * Logo design
+        * The logo was the foundation of the design board and overall theme of the site. 
+        *https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/55e4ea331df3998adfcd46d4a81049a8feff917f
+    * User model diagram
+        * This was created to help guide those working on the front end for the first sprint so they could see a possible map of a layout to use for the future. 
+        * This diagram will help to insure what we implement is routed to correct pages and accesible from different places on the site
+        *https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/4152db0dc9c599203c2ae9a7d2af279eb733a257
+    * Website background creation 
+        * This was derived with the design board in-mind and was used to make the website custom to our group.
+        *https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/8ad477da4030cb4bc078b2c18ca670c01695cc24
+    * Research
+        * Though the sprint started with the idea that this research would help us choose which ages we should split our buttons up into there is not much research on the target ages we are going for. 
+        * Most information on content review for games is geared towards an older gamer with more levels of viloence and gore and sexuality where we are created more of a developmental/educational type website. 
+        * The commit date for this is so late in the sprint because information will continue to be added as I run accross more information. 
+      *https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/0199db6c6706643461b69d00594ccb489dceca89
+      *Next Steps: I will working to inegrate the games to back end and make sure they are playable and edit game code to fit the overall aesthetic of the website. 
 * Jake Elrod
-    * 
+    * Jira Task: KID-21 - Find 3 games per group (9 games total) from github to be later integrated into the website 
+        * For this task I researched and found 9 total games from github that will be later implemented during sprint 2&3.
+        * In this task I created a file that lists the individual three categories and the three games in each category. This
+        * file also provides links to the github where these games can be found.
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/81a22a496ced5961dc318a6dd7b329e24848b1dd
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/cf76cc618cba4bf84cd3762e567d23f9dfbdac76
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/9ae592fb959c697b42c7df3d40b0bebc00857368
+    * Jira Task: KID-32 - Research to find what kinds of developmental games are effective, and what age groups they are appropriate for.
+        * In this task I researched the best way to categorize the 9 games for the user. Reasearch was accumulated and organized in a file
+        * that depicted the best way to categorize the games and what types of games would most likey belong to those categories. The information 
+        * reasearched in this task will be implimented throughout sprint 2&3.
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/81a22a496ced5961dc318a6dd7b329e24848b1dd
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/9ae592fb959c697b42c7df3d40b0bebc00857368
+    * Jira Task: KID-41 - Create image buttons for three age groups (These 3 buttons lead to the age groups gaming options)
+        * This task could not be completed until "Jira Task: KID-32" was completed. In this task I created three category 
+        * images that will later be assigned to their corresponding category buttons. These images were committed 
+        * in sprint 1 to be implimented into the buttons in sprint 2.
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/6c9363f4375d9b85820ae4552e49fe779b4b4327
+    * Jira Task: KID-43 - Create image buttons for the three games in each age groups (These 3 buttons lead to the individual game the user selects)
+        * This task could not be completed until "Jira Task: KID-21" was completed. In this task I created nine game images that will later be 
+        * assigned to their corresponding game buttons. These images were commited in sprint 1 to be implimented
+        * into the buttons in sprint 2.
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/9ae592fb959c697b42c7df3d40b0bebc00857368
+    * Next Steps: I will be assigning the 3 category and 9 game images to their resective buttons as well as impliment 3 of the 9 games
+    
 * Oscar Fortanel Benitiez
-    * 
+    * Jira Task: KID-36 - Setup server for API
+        * Created new Apache 2 Virtual Server to handle requests comming from the web app
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/0470a44c8863ff2ce3398e2722a9499a1a292397
+    * Jira Task: KID-40 - Design data base tables to keep records
+        * Designed data base and tables for accounts and high scores    
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/7d9933e5f74a30f8bfdf8f5994b4d5e24d83c06f
+    * Jira Task: KID-35 - Create and deploy data base and API end point prototype
+        * Created simple API end point as proof of concept
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/37b2058b4b3b363c4d03c4c9134d8e0d7b7df46d
+    * Jira Task: KID-23 - Create prototype endpoint to retreive information (leaderboard)
+        * Created basic script to output a JSON response with the contetns from the leader board table
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/811637d187a434845b7a2a3b1583fde29c2df7b8
+    * Next steps: I will continue to work on the API and the data base in order to get it connected to the website.
 * Robert Elizondo
     * Jira Task: KID-28 - Design and create the front page and accompanying style sheet
         * For this task I created the initial mock-up of the front page, as well as creating the project directory structure with NPM.
