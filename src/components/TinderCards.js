@@ -12,7 +12,7 @@ function TinderCards() {
 
     const [people1, setPeople1] = useState([
         {
-            name: "Game 1",
+            name: "First and Second Grade",
             url: 
                 "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtcMcZkB-rKi9x9_S6jhSDLPQb8H81j4B66g&usqp=CAU"
                 
@@ -22,7 +22,7 @@ function TinderCards() {
     const [people2, setPeople2] = useState([
         {
         
-            name: "Game 2",
+            name: "Third and Fourth Grade",
             url: 
                 "https://as2.ftcdn.net/v2/jpg/01/12/40/89/1000_F_112408906_RalYyQ3bYdVtrQD9cVN2h0TuvM9CT9Zk.jpg"
         
@@ -32,7 +32,7 @@ function TinderCards() {
 
     const [people3, setPeople3] = useState([
         {
-            name: "Game 3",
+            name: "Fifth and Sixth Grade",
             url:
                 "https://knowtechie.com/wp-content/uploads/2021/03/dogecoin-meme-1000x600.jpg"
         },
@@ -44,10 +44,10 @@ function TinderCards() {
       
     <div> 
         
-        <div className="gameContainer">
+        <div className="tinderCards__cardContainer">
      
         {people1.map(person => (
-            <Link to="/game-pages/GamePage">
+            <Link to="/FirstnSecond">
             <IconButton>
             <TinderCard
             className="swipe"
@@ -56,7 +56,7 @@ function TinderCards() {
             >
                 <div 
                 style={{ backgroundImage: `url(${person.url})` }}
-                className="gameCard"
+                className="card"
                 >
                     <h3>{person.name}</h3>
                 </div>
@@ -66,7 +66,7 @@ function TinderCards() {
         ))}
 
         {people2.map(person => (
-            <Link to="/game-pages/GamePage">
+            <Link to="/ThirdnFourth">
             <IconButton>
             <TinderCard
             className="swipe"
@@ -75,7 +75,7 @@ function TinderCards() {
             >
                 <div 
                 style={{ backgroundImage: `url(${person.url})` }}
-                className="gameCard"
+                className="card"
                 >
                     <h3>{person.name}</h3>
                 </div>
@@ -84,7 +84,7 @@ function TinderCards() {
             </Link>
         ))}
                 {people3.map(person => (
-            <Link to="/game-pages/GamePage">
+            <Link to="/FifthnSix">
             <IconButton>
             <TinderCard
             className="swipe"
@@ -93,7 +93,7 @@ function TinderCards() {
             >
                 <div 
                 style={{ backgroundImage: `url(${person.url})` }}
-                className="gameCard"
+                className="card"
                 >
                     <h3>{person.name}</h3>
                 </div>
@@ -105,5 +105,7 @@ function TinderCards() {
     </div> 
   );
 }
+
+
 
 export default TinderCards
