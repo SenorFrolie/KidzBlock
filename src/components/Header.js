@@ -1,13 +1,13 @@
 import "./Header.css";
 import React from "react"
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
-import MenuIcon from '@mui/icons-material/Menu';
-import logo from './kblogo.png';
+import logo from './../images/kblogo.png';
 import IconButton from '@material-ui/core/IconButton';
-import LeaderboardIcon from '@mui/icons-material/Leaderboard';
 import { Link } from "react-router-dom";
-import { CenterFocusStrong } from "@material-ui/icons";
-import NavBar from "./components/NavBar";
+import NavBar from "./NavBar";
+//import MenuIcon from '@mui/icons-material/Menu';
+//import LeaderboardIcon from '@mui/icons-material/Leaderboard';
+//import { CenterFocusStrong } from "@material-ui/icons";
 
 function Header() {
   return (

@@ -2,7 +2,7 @@ import React from 'react';
 import TinderCard from "react-tinder-card";
 import {useEffect, useState} from 'react';
 //import database from "./firebase";
-import './TinderCards.css';
+import './../../components/TinderCards.css';
 import { IconButton } from '@mui/material';
 import { Route, Link} from "react-router-dom"
 

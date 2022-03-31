@@ -1,15 +1,15 @@
 import React from 'react'
-import Header from './Header';
+import Header from './components/Header';
 import './App.css';
 import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
-import TinderCards from "./pages/TinderCards";
-import FirstnSecond from './pages/FirstnSecond';
-import ThirdnFourth from './pages/ThirdnFourth';
-import FifthnSix from './pages/FifthnSix';
-import NavBar from './components/NavBar';
+import TinderCards from "./components/TinderCards";
+import FirstnSecond from './pages/age-group-pages/FirstnSecond';
+import ThirdnFourth from './pages/age-group-pages/ThirdnFourth';
+import FifthnSix from './pages/age-group-pages/FifthnSix';
 import LeaderBoard from './pages/LeaderBoard';
 import Profile from './pages/Profile';
 import GamePage from './pages/game-pages/GamePage'
+//import NavBar from './components/NavBar';
 
 
 
