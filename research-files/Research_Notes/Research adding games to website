@@ -1,0 +1,19 @@
+Research notes into adding a game on a website
+
+1.	Why you are doing it.
+To better understand how to implement more games in the feature if we can, but to also learn new technology on web development.
+2.	What you expect to learn/do
+
+I’m expected to learn new ways to implement different types of information on a website and by the end of this research, be able to have a working game on our website
+
+- First forum I found that mention using unity to host our games 
+    https://forum.unity.com/threads/how-to-share-your-webplayer-on-google-drive-or-dropbox.190380/
+- First video that will help us in creating a sharable link that the user will click on to play the game
+    https://www.youtube.com/watch?v=c431DEshk4U&ab_channel=HasanAbdulaziz
+    
+by using we forum we might be able to run our games in Oscar’s server using Google-Drive to hold our games, or what I am hoping to do is instead just create a regular folder to hold the games data. From there we could also add scoring system function that can be easily read from Oscar server to feed into the leaderboard function that Robert E created in the first sprint. More research in needed to know for sure. But it looks like we’ll be needing unities help in achieving our end goal of running games on our website. 
+
+3.	What do you expect to do with it?
+Upload one game onto our website but in the future have multiple games be playable on our website. 
+
+The Jira task that is depended on this research is KD-72
