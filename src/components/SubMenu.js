@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
-
 const SidebarLink = styled(Link)`
   display: flex;
   color: black;
@@ -14,7 +13,7 @@ const SidebarLink = styled(Link)`
   text-decoration: none;
   font-size: 18px;
   &:hover {
-    background: #252831;
+    background: #aquamarine;
     border-left: 4px solid #632ce4;
     cursor: pointer;
   }
