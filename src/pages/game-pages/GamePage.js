@@ -1,7 +1,7 @@
 import React from 'react'
 import { Route, Link, NavLink} from "react-router-dom"
 import { Container } from "reactstrap";
-import './TicTacToe.css'
+import './GamePage.css'
 import styled, { css } from 'styled-components'
 
 const NavUnlisted = styled.ul`
@@ -25,13 +25,13 @@ justify-content: center;
   }
 }
 `;
-// lines 29 31
+
 const links = [
-    {name: "TicTacToe", path:"/game-pages/TicTacToe"},
+    {name: "GamePage", path:"/game-pages/GamePage"},
     {name: "LeaderBoard", path:"/LeaderBoard"},
 ];
-// remove lines 37 - 43
-function TicTacToe() {
+
+function GamePage() {
   return (
         <><div className="window">
         <NavUnlisted>
@@ -43,10 +43,9 @@ function TicTacToe() {
 </NavUnlisted>
     </div>
       <div className="playWindow">
-              <h1 className='gamePageHeading'>TicTacToe</h1>
-              <iframe src="https://tic-tac-toe-web.imhtapm.vercel.app/" width="1000" height="1000"></iframe>
+              <h1 className='gamePageHeading'>Game Page</h1>
           </div></>
   );
 }
 
-export default TicTacToe
+export default GamePage

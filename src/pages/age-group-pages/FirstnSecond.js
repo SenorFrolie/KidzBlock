@@ -7,6 +7,7 @@ import { IconButton } from '@mui/material';
 import { Route, Link} from "react-router-dom"
 
 // An array of what is in the containers
+
 function TinderCards() {
 
     const [people1, setPeople1] = useState([
@@ -46,7 +47,7 @@ function TinderCards() {
         <div className="gameContainer">
      
         {people1.map(person => (
-            <Link to="/game-pages/TicTacToe">
+            <Link to="/game-pages/GamePage">
             <IconButton>
             <TinderCard
             className="swipe"
