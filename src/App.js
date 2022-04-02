@@ -8,7 +8,7 @@ import ThirdnFourth from './pages/age-group-pages/ThirdnFourth';
 import FifthnSix from './pages/age-group-pages/FifthnSix';
 import LeaderBoard from './pages/LeaderBoard';
 import Profile from './pages/Profile';
-import GamePage from './pages/game-pages/GamePage'
+import TicTacToe from './pages/game-pages/TicTacToe'
 //import NavBar from './components/NavBar';
 
 
@@ -23,11 +23,9 @@ function App() {
           <Route path='/FirstnSecond' exact component={FirstnSecond} />
           <Route path='/ThirdnFourth' exact component={ThirdnFourth} />
           <Route path='/FifthnSix' exact component={FifthnSix} />
-  {/* I don't think these get used? they exist in the NavBar
           <Route path='/LeaderBoard' exact component={LeaderBoard} />
           <Route path='/Profile' exact component={Profile} />
-          <Route path='/game-pages/GamePage' exact component={GamePage} />
-  */}
+          <Route path='/game-pages/TicTacToe' exact component={TicTacToe} />
         </Switch>
       </Router>
     </>
@@ -35,4 +33,4 @@ function App() {
 }
 
 export default App;
-//      
+  
