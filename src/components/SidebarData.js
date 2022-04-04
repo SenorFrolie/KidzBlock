@@ -24,7 +24,7 @@ export const SidebarData = [{
         subNav:[
             {
                 title: 'Matching',
-                path: '/game-pages/GamePage',
+                path: '/game-pages/Matching',
                 icon: <IoIcons.IoIosSchool />,
             },
             {

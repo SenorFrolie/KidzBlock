@@ -46,7 +46,7 @@ function TinderCards() {
         <div className="gameContainer">
      
         {people1.map(person => (
-            <Link to="/game-pages/GamePage">
+            <Link to="/game-pages/Matching">
             <IconButton>
             <TinderCard
             className="swipe"
