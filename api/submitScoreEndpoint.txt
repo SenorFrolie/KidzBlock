@@ -1,0 +1,8 @@
+https://txstate.oscarfortanel.dev/CS3398/kidzblocks/api/v1/highScoreSubmit.php
+
+Expected input
+Method = POST
+api_token
+name
+score
+g_id
