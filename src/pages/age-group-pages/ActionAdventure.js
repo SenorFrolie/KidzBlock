@@ -12,7 +12,7 @@ function TinderCards() {
 
     const [people1, setPeople1] = useState([
         {
-            name: "Game 1",
+            name: "Kart",
             url: 
                 "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtcMcZkB-rKi9x9_S6jhSDLPQb8H81j4B66g&usqp=CAU"
                 
@@ -22,7 +22,7 @@ function TinderCards() {
     const [people2, setPeople2] = useState([
         {
         
-            name: "Game 2",
+            name: "Snake",
             url: 
                 "https://as2.ftcdn.net/v2/jpg/01/12/40/89/1000_F_112408906_RalYyQ3bYdVtrQD9cVN2h0TuvM9CT9Zk.jpg"
         
@@ -32,7 +32,7 @@ function TinderCards() {
 
     const [people3, setPeople3] = useState([
         {
-            name: "Game 3",
+            name: "Tic-Tac-Toe",
             url:
                 "https://knowtechie.com/wp-content/uploads/2021/03/dogecoin-meme-1000x600.jpg"
         },
@@ -84,7 +84,7 @@ function TinderCards() {
             </Link>
         ))}
                 {people3.map(person => (
-            <Link to="/game-pages/GamePage">
+            <Link to="/game-pages/TicTacToe">
             <IconButton>
             <TinderCard
             className="swipe"
