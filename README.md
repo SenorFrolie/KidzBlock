@@ -65,7 +65,6 @@ We are missing web game development experience. None of the developers have ever
         * After restructing the file system i was able to create the three webpages for each of the grade groups we decided as a team. 
     * Next Steps: I will likely begin researching and implementing the games the team have found during the first sprint to be added to their respected game pages. 
 
-    
 * Jacob Lopez
     * Design board creation.
         * This board includes fonts, colors to be used, and various design elements that can be used as buttons, game icons or other front-end elements.
@@ -86,6 +85,7 @@ We are missing web game development experience. None of the developers have ever
         * The commit date for this is so late in the sprint because information will continue to be added as I run accross more information. 
       *https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/0199db6c6706643461b69d00594ccb489dceca89
       *Next Steps: I will working to inegrate the games to back end and make sure they are playable and edit game code to fit the overall aesthetic of the website. 
+
 * Jake Elrod
     * Jira Task: KID-21 - Find 3 games per group (9 games total) from github to be later integrated into the website 
         * For this task I researched and found 9 total games from github that will be later implemented during sprint 2&3.
@@ -126,6 +126,7 @@ We are missing web game development experience. None of the developers have ever
         * Created basic script to output a JSON response with the contetns from the leader board table
         * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/811637d187a434845b7a2a3b1583fde29c2df7b8
     * Next steps: I will continue to work on the API and the data base in order to get it connected to the website.
+    
 * Robert Elizondo
     * Jira Task: KID-28 - Design and create the front page and accompanying style sheet
         * For this task I created the initial mock-up of the front page, as well as creating the project directory structure with NPM.
@@ -144,7 +145,44 @@ We are missing web game development experience. None of the developers have ever
         * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/d484d4942c6a76c8881d6c7a6c472de70c5e08fb
     * Next Steps: I will likely begin finding and implementing a testing framework that works with React, then writing some simple test cases.
 
+# Sprint 2 - Contributions and Next Steps
+* Jake Elrod
+    * Done:
+    * Jira Task: KID-63 - "Matching" game implement back end and connect to leader board
+    * Next Steps:
+    * Jira Task: KID-60 - Edit source code of "Matching" "Puzzle" game 
+    * Jira Task: KID-61 - Give "Matching" game source code proper citation
+    * Jira Task: KID-62 - Implement "Matching" game into the website
 
 # Acknowledgements
 * Logo by: Jacob Lopez 
-* referenced: EnvatoElements.com
+* Referenced: EnvatoElements.com
+
+* Game Compilation by: Jake Elrod
+* Game: Matching
+    * Reference: https://github.com/weilemann/Memory-Game
+    * Creator: Yuri Weilemann
+* Game: Sliding Puzzle
+    * Reference: https://github.com/diox/web-sliding-puzzle	
+    * Creator: Mathieu Pillard
+* Game: 2048
+    * Reference: https://github.com/gabrielecirulli/2048
+    * Creator: Gabriele Cirulli 
+* Game: Letters
+    * Reference: https://github.com/alejandrosobko/tikijuegos
+    * Creator: Alejandro Sobko
+* Game: Numbers
+    * Reference: https://github.com/alejandrosobko/tikijuegos
+    * Creator: Alejandro Sobko
+* Game: Spelling
+    * Reference: https://github.com/moof2k/wordgame	
+    * Creator: Robert Rose
+* Game: Kart
+    * Reference: https://github.com/vrana/games
+    * Creator: Jakub Vrána
+* Game: Snake
+    * Reference: https://github.com/vrana/games
+    * Creator: Jakub Vrána
+* Game: Tic-Tac-Toe
+    * Reference: https://github.com/imhta/tic-tac-toe-web
+    * Creator: Pon Muthu Selvam N

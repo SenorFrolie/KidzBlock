@@ -3,12 +3,16 @@ import Header from './components/Header';
 import './App.css';
 import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import TinderCards from "./components/TinderCards";
-import FirstnSecond from './pages/age-group-pages/FirstnSecond';
-import ThirdnFourth from './pages/age-group-pages/ThirdnFourth';
-import FifthnSix from './pages/age-group-pages/FifthnSix';
+import Puzzles from './pages/age-group-pages/Puzzles';
+import LettersNumbers from './pages/age-group-pages/LettersNumbers';
+import ActionAdventure from './pages/age-group-pages/ActionAdventure';
 import LeaderBoard from './pages/LeaderBoard';
 import Profile from './pages/Profile';
-import GamePage from './pages/game-pages/GamePage'
+import TicTacToe from './pages/game-pages/TicTacToe'
+import My2048 from './pages/game-pages/My2048'
+import Spelling from './pages/game-pages/Spelling'
+import Matching from './pages/game-pages/Matching'
+
 //import NavBar from './components/NavBar';
 
 
@@ -20,14 +24,15 @@ function App() {
       <Header />  
         <Switch>
           <Route path='/' exact component={TinderCards} />
-          <Route path='/FirstnSecond' exact component={FirstnSecond} />
-          <Route path='/ThirdnFourth' exact component={ThirdnFourth} />
-          <Route path='/FifthnSix' exact component={FifthnSix} />
-  {/* I don't think these get used? they exist in the NavBar
+          <Route path='/Puzzles' exact component={Puzzles} />
+          <Route path='/LettersNumbers' exact component={LettersNumbers} />
+          <Route path='/ActionAdventure' exact component={ActionAdventure} />
           <Route path='/LeaderBoard' exact component={LeaderBoard} />
           <Route path='/Profile' exact component={Profile} />
-          <Route path='/game-pages/GamePage' exact component={GamePage} />
-  */}
+          <Route path='/game-pages/TicTacToe' exact component={TicTacToe} />
+          <Route path='/game-pages/My2048' exact component={My2048} />
+          <Route path='/game-pages/Spelling' exact component={Spelling} />
+          <Route path='/game-pages/Matching' exact component={Matching} />
         </Switch>
       </Router>
     </>
@@ -35,4 +40,4 @@ function App() {
 }
 
 export default App;
-//      
+  

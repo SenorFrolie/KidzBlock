@@ -14,7 +14,7 @@ export const SidebarData = [{
 
 },
     {
-        title: 'FirstnSecond',
+        title: 'Puzzles',
         icon: <IoIcons.IoIosSchool />,
         cName: 'nav-text',   
         iconClosed: <RiIcons.RiArrowDownSFill />,
@@ -23,16 +23,24 @@ export const SidebarData = [{
         // where info of the dropdown menu will go 
         subNav:[
             {
-                title: 'Game1',
+                title: 'Matching',
+                path: '/game-pages/Matching',
+                icon: <IoIcons.IoIosSchool />,
+            },
+            {
+                title: 'Sliding Puzzle',
                 path: '/game-pages/GamePage',
                 icon: <IoIcons.IoIosSchool />,
             },
-            // Add addition games here **copy similar layout from subNav**
+            {
+                title: '2048',
+                path: '/game-pages/My2048',
+                icon: <IoIcons.IoIosSchool />,
+            },
         ]
     },
     {
-        title: 'ThirdnFourth',
-        //path: '/ThirdnFourth',
+        title: 'Letters & Numbers',
         icon: <IoIcons.IoIosSchool />,
         cName: 'nav-text',   
         iconClosed: <RiIcons.RiArrowDownSFill />,
@@ -41,16 +49,24 @@ export const SidebarData = [{
         // where info of the dropdown menu will go 
         subNav:[
             {
-                title: 'Game1',
+                title: 'Letters',
                 path: '/game-pages/GamePage',
                 icon: <IoIcons.IoIosSchool />,
             },
-            // Add addition games here **copy similar layout from subNav**
+            {
+                title: 'Numbers',
+                path: '/game-pages/GamePage',
+                icon: <IoIcons.IoIosSchool />,
+            },
+            {
+                title: 'Spelling',
+                path: '/game-pages/Spelling',
+                icon: <IoIcons.IoIosSchool />,
+            },
         ]
     },
     {
-        title: 'FifthnSix',
-        //path: '/FifthnSix',
+        title: 'Action Adventure',
         icon: <IoIcons.IoIosSchool />,
         cName: 'nav-text',   
         iconClosed: <RiIcons.RiArrowDownSFill />,
@@ -58,11 +74,20 @@ export const SidebarData = [{
         // where info of the dropdown menu will go 
         subNav:[
             {
-                title: 'Game1',
+                title: 'Kart',
                 path: '/game-pages/GamePage',
                 icon: <IoIcons.IoIosSchool />,
             },
-            // Add addition games here **copy similar layout from subNav**
+            {
+                title: 'Snake',
+                path: '/game-pages/GamePage',
+                icon: <IoIcons.IoIosSchool />,
+            },
+            {
+                title: 'Tic-Tac-Toe',
+                path: '/game-pages/TicTacToe',
+                icon: <IoIcons.IoIosSchool />,
+            },
         ]
     },
     {
