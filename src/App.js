@@ -12,6 +12,7 @@ import TicTacToe from './pages/game-pages/TicTacToe'
 import My2048 from './pages/game-pages/My2048'
 import Spelling from './pages/game-pages/Spelling'
 import Matching from './pages/game-pages/Matching'
+import Sliding from './pages/game-pages/Sliding'
 
 //import NavBar from './components/NavBar';
 
@@ -33,6 +34,7 @@ function App() {
           <Route path='/game-pages/My2048' exact component={My2048} />
           <Route path='/game-pages/Spelling' exact component={Spelling} />
           <Route path='/game-pages/Matching' exact component={Matching} />
+          <Route path='/game-pages/Sliding' exact component={Sliding} />
         </Switch>
       </Router>
     </>

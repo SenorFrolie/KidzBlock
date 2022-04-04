@@ -29,7 +29,7 @@ export const SidebarData = [{
             },
             {
                 title: 'Sliding Puzzle',
-                path: '/game-pages/GamePage',
+                path: '/game-pages/Sliding',
                 icon: <IoIcons.IoIosSchool />,
             },
             {
