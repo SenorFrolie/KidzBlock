@@ -10,6 +10,7 @@ import LeaderBoard from './pages/LeaderBoard';
 import Profile from './pages/Profile';
 import TicTacToe from './pages/game-pages/TicTacToe'
 import My2048 from './pages/game-pages/My2048'
+import Spelling from './pages/game-pages/Spelling'
 //import NavBar from './components/NavBar';
 
 
@@ -28,6 +29,7 @@ function App() {
           <Route path='/Profile' exact component={Profile} />
           <Route path='/game-pages/TicTacToe' exact component={TicTacToe} />
           <Route path='/game-pages/My2048' exact component={My2048} />
+          <Route path='/game-pages/Spelling' exact component={Spelling} />
         </Switch>
       </Router>
     </>

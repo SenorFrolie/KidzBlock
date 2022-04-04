@@ -34,7 +34,7 @@ export const SidebarData = [{
             },
             {
                 title: '2048',
-                path: '/game-pages/My2048',
+                path: '/game-pages/2048',
                 icon: <IoIcons.IoIosSchool />,
             },
         ]
@@ -60,7 +60,7 @@ export const SidebarData = [{
             },
             {
                 title: 'Spelling',
-                path: '/game-pages/GamePage',
+                path: '/game-pages/Spelling',
                 icon: <IoIcons.IoIosSchool />,
             },
         ]

@@ -82,7 +82,7 @@ function TinderCards() {
             </IconButton>
             </Link>
         ))}
-                {people3.map(person => (
+        {people3.map(person => (
             <Link to="/game-pages/My2048">
             <IconButton>
             <TinderCard
