@@ -44,7 +44,7 @@ function TicTacToe() {
     </div>
       <div className="playWindow">
               <h1 className='gamePageHeading'>TicTacToe</h1>
-              <iframe src="https://tic-tac-toe-web.imhtapm.vercel.app/" width="1000" height="1000"></iframe>
+              <iframe src="https://txstate.oscarfortanel.dev/CS3398/kidzblocks/games/tic-tac-toe-web/" width="1000" height="1000"></iframe>
           </div></>
   );
 }
