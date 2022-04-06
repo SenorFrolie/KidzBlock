@@ -10,6 +10,7 @@ import LeaderBoard from './pages/LeaderBoard';
 import Profile from './pages/Profile';
 import TicTacToe from './pages/game-pages/TicTacToe'
 import My2048 from './pages/game-pages/My2048'
+import Karts from './pages/game-pages/Karts'
 import Spelling from './pages/game-pages/Spelling'
 import Matching from './pages/game-pages/Matching'
 import Sliding from './pages/game-pages/Sliding'
