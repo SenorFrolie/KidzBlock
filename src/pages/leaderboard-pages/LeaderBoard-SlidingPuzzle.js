@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import './LeaderBoard.css'
-import Profiles from './../components/Profiles'
-import { Leaderboard } from './../components/ProfileDataBase'
+import Profiles from './../../components/Profiles'
+import { Leaderboard } from './../../components/ProfileDataBase'
 import { Route, Link, NavLink } from "react-router-dom"
 import { NavigateBefore } from '@material-ui/icons'
 import { Button} from 'react-bootstrap';
@@ -40,7 +40,7 @@ function LeaderBoard() {
   `;
 
   const links = [
-    {name: "GamePage", path:"../game-pages/SlidingPuzzle"},
+    {name: "GamePage", path:"../game-pages/Sliding"},
     {name: "LeaderBoard", path:"/leaderboard-pages/LeaderBoard-SlidingPuzzle"},
 ];
 

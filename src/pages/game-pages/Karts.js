@@ -27,8 +27,8 @@ justify-content: center;
 `;
 // lines 29 31
 const links = [
-    {name: "Karts", path:"/game-pages/Karts"},
-    {name: "LeaderBoard", path:"/LeaderBoard"},
+  {name: "GamePage", path:"/game-pages/Karts"},
+  {name: "LeaderBoard", path:"/leaderboard-pages/LeaderBoard-Kart"},
 ];
 // remove lines 37 - 43
 function Karts() {

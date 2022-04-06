@@ -27,8 +27,8 @@ justify-content: center;
 `;
 // lines 29 31
 const links = [
-    {name: "Sliding", path:"/game-pages/Sliding"},
-    {name: "LeaderBoard", path:"/LeaderBoard"},
+  {name: "GamePage", path:"/game-pages/Sliding"},
+  {name: "LeaderBoard", path:"/leaderboard-pages/LeaderBoard-SlidingPuzzle"},
 ];
 // remove lines 37 - 43
 function Sliding() {

@@ -37,7 +37,7 @@ test("Should render home page and header with default route", () => {
 });
 
 /*
-TEST 2 - First-and-Second-Grade page and header
+TEST 2 - ActionAdventure page and header
 */
 test("Should render ActionAdventure page and header with ActionAdventure route", () => {
     //Arrange
@@ -55,7 +55,7 @@ test("Should render ActionAdventure page and header with ActionAdventure route",
 });
 
 /*
-TEST 3 - Third-and-Fourth-Grade page and header
+TEST 3 - LettersNumbers page and header
 */
 test("Should render LettersNumbers page and header with LettersNumbers route", () => {
     //Arrange
@@ -73,7 +73,7 @@ test("Should render LettersNumbers page and header with LettersNumbers route", (
 });
 
 /*
-TEST 4 - Fifth-and-Sixth-Grade page and header
+TEST 4 - Puzzles page and header
 */
 test("Should render Puzzles page and header with Puzzles route", () => {
     //Arrange
