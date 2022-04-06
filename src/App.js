@@ -13,7 +13,7 @@ import My2048 from './pages/game-pages/My2048'
 import Spelling from './pages/game-pages/Spelling'
 import Matching from './pages/game-pages/Matching'
 import Sliding from './pages/game-pages/Sliding'
-import Karts from './pages/game-pages/Karts';
+import Snake from './pages/game-pages/Snake';
 
 //import NavBar from './components/NavBar';
 
@@ -38,6 +38,8 @@ function App() {
           <Route path='/game-pages/Spelling' exact component={Spelling} />
           <Route path='/game-pages/Matching' exact component={Matching} />
           <Route path='/game-pages/Sliding' exact component={Sliding} />
+          <Route path='/game-pages/Snake' exact component={Snake} />
+
         </Switch>
       </Router>
     </>

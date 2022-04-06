@@ -66,7 +66,7 @@ function TinderCards() {
         ))}
 
         {people2.map(person => (
-            <Link to="/game-pages/Karts">
+            <Link to="/game-pages/Snake">
             <IconButton>
             <TinderCard
             className="swipe"

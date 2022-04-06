@@ -14,7 +14,9 @@ import { screen, configure } from '@testing-library/react'
 
 jest.mock('./../components/Header');
 jest.mock('./../components/TinderCards');
-jest.mock('./../pages/age-group-pages/FirstnSecond');
+jest.mock('./../pages/age-group-pages/ActionAdventure');
+jest.mock('./../pages/age-group-pages/LettersNumbers');
+jest.mock('./../pages/age-group-pages/Puzzles');
 
 /*
 TEST 1 - Home page and header
@@ -37,54 +39,54 @@ test("Should render home page and header with default route", () => {
 /*
 TEST 2 - First-and-Second-Grade page and header
 */
-test("Should render 1st and 2nd grade page and header with FirstnSecond route", () => {
+test("Should render ActionAdventure page and header with ActionAdventure route", () => {
     //Arrange
     Header.mockImplementation(() => <div>HeaderMock</div>);
-    TinderCards.mockImplementation(() => <div>FirstnSecondMock</div>);
+    TinderCards.mockImplementation(() => <div>ActionAdventureMock</div>);
     //Act
     render(
-        <MemoryRouter initialEntries={['/../pages/age-group-pages/FirstnSecond']}>
+        <MemoryRouter initialEntries={['/../pages/age-group-pages/ActionAdventure']}>
             <App/>
         </MemoryRouter>
     );
     //Assert
     expect(screen.getByText("HeaderMock")).toBeInTheDocument();
-    expect(screen.getByText("FirstnSecondMock")).toBeInTheDocument();
+    expect(screen.getByText("ActionAdventureMock")).toBeInTheDocument();
 });
 
 /*
 TEST 3 - Third-and-Fourth-Grade page and header
 */
-test("Should render 3rd and 4th grade page and header with ThirdnFourth route", () => {
+test("Should render LettersNumbers page and header with LettersNumbers route", () => {
     //Arrange
     Header.mockImplementation(() => <div>HeaderMock</div>);
-    TinderCards.mockImplementation(() => <div>ThirdnFourthMock</div>);
+    TinderCards.mockImplementation(() => <div>LettersNumbersMock</div>);
     //Act
     render(
-        <MemoryRouter initialEntries={['/../pages/age-group-pages/ThirdnFourth']}>
+        <MemoryRouter initialEntries={['/../pages/age-group-pages/LettersNumbers']}>
             <App/>
         </MemoryRouter>
     );
     //Assert
     expect(screen.getByText("HeaderMock")).toBeInTheDocument();
-    expect(screen.getByText("ThirdnFourthMock")).toBeInTheDocument();
+    expect(screen.getByText("LettersNumbersMock")).toBeInTheDocument();
 });
 
 /*
 TEST 4 - Fifth-and-Sixth-Grade page and header
 */
-test("Should render 4th and 5th grade page and header with FifthnSixth route", () => {
+test("Should render Puzzles page and header with Puzzles route", () => {
     //Arrange
     Header.mockImplementation(() => <div>HeaderMock</div>);
-    TinderCards.mockImplementation(() => <div>FifthnSixthMock</div>);
+    TinderCards.mockImplementation(() => <div>PuzzlesMock</div>);
     //Act
     render(
-        <MemoryRouter initialEntries={['/../pages/age-group-pages/FifthnSixth']}>
+        <MemoryRouter initialEntries={['/../pages/age-group-pages/Puzzles']}>
             <App/>
         </MemoryRouter>
     );
     //Assert
     expect(screen.getByText("HeaderMock")).toBeInTheDocument();
-    expect(screen.getByText("FifthnSixthMock")).toBeInTheDocument();
+    expect(screen.getByText("PuzzlesMock")).toBeInTheDocument();
 });
 

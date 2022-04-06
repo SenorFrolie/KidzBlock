@@ -1,0 +1,6 @@
+I, Robert Elizondo, will be adding unit tests for the NavBar class (inside NavBar.js).
+I need to spend some time learning about using Jest to create appropriate unit tests before doing so.
+My main goal with this task is to have automated tests to ensure that each button acutally goes where we are expecting it to go (the buttons link off the the appropriate webpages).
+As of today (3/31/22) I have just started with this task, but intend to finish it over the next few days.
+
+The tests will be located in the "__tests__" directory in the "NavBar.test.js" file.
