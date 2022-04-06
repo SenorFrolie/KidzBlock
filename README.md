@@ -147,12 +147,36 @@ We are missing web game development experience. None of the developers have ever
 
 # Sprint 2 - Contributions and Next Steps
 * Jake Elrod
-    * Done:
-    * Jira Task: KID-63 - "Matching" game implement back end and connect to leader board
-    * Next Steps:
-    * Jira Task: KID-60 - Edit source code of "Matching" "Puzzle" game 
-    * Jira Task: KID-61 - Give "Matching" game source code proper citation
+    * Jira Task: KID-60 - Provide Proper Citation for all 9 games
+        * In this task, I edited the README.md file and added the proper citation for each individual game. The 
+        * citation for each game includes a reference to the creator's GitHub source code and the creator's name.
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/dcb792922abce58203ee4644b68707635c21b815
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/243f165c8671f4e5a2702b8da412e03448c6f201
+    * Jira Task: KID-61 - Implement "2048" game into the website
+        * In this task, I implemented the game "2048" into the web page. The "2048" game is implemented but in later
+        * sprints needs to be updated to obtain the users score and send this score to the backend to be utilized 
+        * by the leader board.  
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/ff0184b087f0583542b8bd2920c1cd67141b3e1c
     * Jira Task: KID-62 - Implement "Matching" game into the website
+        * In this task, I implemented the game "Matching" into the web page. The "Matching" game is implemented but in later
+        * sprints needs to be updated to obtain the users score and send this score to the backend to be utilized 
+        * by the leader board.
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/25d286c6541070925a75c91071c6e21f7b9efb88
+    * Jira Task: KID-63 - Implement "Spelling" game into the website
+        * In this task, I implemented the game "Spelling" into the web page. The "Spelling" game is implemented but in later
+        * sprints needs to be updated to obtain the users score and send this score to the backend to be utilized 
+        * by the leader board.
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/8bd78ad2b54a12ac531cf5324afaa6e80b116e7a
+    * Jira Task: KID-64 - Create proper "research and related documents" document for researched evidence
+        * In this task, I updated each resource file to have the declaired resource document structure designated
+        * by the professor. I also change some of the games that were previously going to be implemented into 
+        * games are better suitable for this project. Inorder to reflect the game changes the "9 Games - KID 21 - Elrod"
+        * and "Categorizing Game - KID 32 - Elrod " files.
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/f26b2d3fc942da64444a4f99219c1d125e4f613b
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/c9f3b879a5766af2f5b400af21fe6cece4e7837b
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/9311b2a9b8febf45b25afe4a2a6d0491b81ff098
+    * Next Steps: In the next sprint, I will be editing the source code to some of the games as well as connect the
+        games to the leader board
     
 * Oscar Fortanel Benitez
     * Done:
