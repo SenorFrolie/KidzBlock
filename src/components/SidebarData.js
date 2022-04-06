@@ -80,7 +80,7 @@ export const SidebarData = [{
             },
             {
                 title: 'Snake',
-                path: '/game-pages/GamePage',
+                path: '/game-pages/Snake',
                 icon: <IoIcons.IoIosSchool />,
             },
             {

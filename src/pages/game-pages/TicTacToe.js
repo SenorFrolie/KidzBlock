@@ -27,8 +27,8 @@ justify-content: center;
 `;
 // lines 29 31
 const links = [
-    {name: "TicTacToe", path:"/game-pages/TicTacToe"},
-    {name: "LeaderBoard", path:"/LeaderBoard"},
+    {name: "GamePage", path:"/game-pages/TicTacToe"},
+    {name: "LeaderBoard", path:"/leaderboard-pages/LeaderBoard-TicTacToe"},
 ];
 // remove lines 37 - 43
 function TicTacToe() {

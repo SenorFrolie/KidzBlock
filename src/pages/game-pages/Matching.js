@@ -27,8 +27,8 @@ justify-content: center;
 `;
 // lines 29 31
 const links = [
-    {name: "Matching", path:"/game-pages/Matching"},
-    {name: "LeaderBoard", path:"/LeaderBoard"},
+  {name: "GamePage", path:"../game-pages/Matching"},
+  {name: "LeaderBoard", path:"/leaderboard-pages/LeaderBoard-Matching"},
 ];
 // remove lines 37 - 43
 function Matching() {

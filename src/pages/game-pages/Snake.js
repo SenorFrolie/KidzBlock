@@ -27,8 +27,8 @@ justify-content: center;
 `;
 // lines 29 31
 const links = [
-    {name: "Snake", path:"/game-pages/Snake"},
-    {name: "LeaderBoard", path:"/LeaderBoard"},
+  {name: "GamePage", path:"/game-pages/Snake"},
+  {name: "LeaderBoard", path:"/leaderboard-pages/LeaderBoard-Snake"},
 ];
 // remove lines 37 - 43
 function Snake() {

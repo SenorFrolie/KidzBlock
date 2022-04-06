@@ -7,13 +7,14 @@ import { IconButton } from '@mui/material';
 import { Route, Link} from "react-router-dom"
 
 // An array of what is in the containers
+
 function TinderCards() {
 
     const [people1, setPeople1] = useState([
         {
-            name: "Matching",
+            name: "Kart",
             url: 
-                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtcMcZkB-rKi9x9_S6jhSDLPQb8H81j4B66g&usqp=CAU"
+                "http://cs.txstate.edu/~rge15/raceCarGame.png"
                 
         },
     ]);
@@ -21,9 +22,9 @@ function TinderCards() {
     const [people2, setPeople2] = useState([
         {
         
-            name: "Sliding Puzzle",
+            name: "Snake",
             url: 
-                "https://as2.ftcdn.net/v2/jpg/01/12/40/89/1000_F_112408906_RalYyQ3bYdVtrQD9cVN2h0TuvM9CT9Zk.jpg"
+                "http://cs.txstate.edu/~rge15/snakeyGame.png"
         
         },
  
@@ -31,9 +32,9 @@ function TinderCards() {
 
     const [people3, setPeople3] = useState([
         {
-            name: "2048",
+            name: "Tic-Tac-Toe",
             url:
-                "https://knowtechie.com/wp-content/uploads/2021/03/dogecoin-meme-1000x600.jpg"
+                "http://cs.txstate.edu/~rge15/TicTacToeGame.png"
         },
     ]);
 
@@ -46,7 +47,7 @@ function TinderCards() {
         <div className="gameContainer">
      
         {people1.map(person => (
-            <Link to="/game-pages/Matching">
+            <Link to="/game-pages/Karts">
             <IconButton>
             <TinderCard
             className="swipe"
@@ -65,7 +66,7 @@ function TinderCards() {
         ))}
 
         {people2.map(person => (
-            <Link to="/game-pages/Sliding">
+            <Link to="/game-pages/Snake">
             <IconButton>
             <TinderCard
             className="swipe"
@@ -82,8 +83,8 @@ function TinderCards() {
             </IconButton>
             </Link>
         ))}
-        {people3.map(person => (
-            <Link to="/game-pages/My2048">
+                {people3.map(person => (
+            <Link to="/game-pages/TicTacToe">
             <IconButton>
             <TinderCard
             className="swipe"
@@ -104,7 +105,5 @@ function TinderCards() {
     </div> 
   );
 }
-
-
 
 export default TinderCards

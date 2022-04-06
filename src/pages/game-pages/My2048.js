@@ -27,8 +27,8 @@ justify-content: center;
 `;
 // lines 29 31
 const links = [
-    {name: "My2048", path:"/game-pages/My2048"},
-    {name: "LeaderBoard", path:"/LeaderBoard"},
+  {name: "GamePage", path:"../game-pages/My2048"},
+  {name: "LeaderBoard", path:"/leaderboard-pages/LeaderBoard-2048"},
 ];
 // remove lines 37 - 43
 function My2048() {

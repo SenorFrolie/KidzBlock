@@ -7,14 +7,13 @@ import { IconButton } from '@mui/material';
 import { Route, Link} from "react-router-dom"
 
 // An array of what is in the containers
-
 function TinderCards() {
 
     const [people1, setPeople1] = useState([
         {
-            name: "Letters",
+            name: "Matching",
             url: 
-                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtcMcZkB-rKi9x9_S6jhSDLPQb8H81j4B66g&usqp=CAU"
+                "http://cs.txstate.edu/~rge15/matchingGame.png"
                 
         },
     ]);
@@ -22,9 +21,9 @@ function TinderCards() {
     const [people2, setPeople2] = useState([
         {
         
-            name: "Numbers",
+            name: "Sliding Puzzle",
             url: 
-                "https://as2.ftcdn.net/v2/jpg/01/12/40/89/1000_F_112408906_RalYyQ3bYdVtrQD9cVN2h0TuvM9CT9Zk.jpg"
+                "http://cs.txstate.edu/~rge15/puzzleGame.png"
         
         },
  
@@ -32,9 +31,9 @@ function TinderCards() {
 
     const [people3, setPeople3] = useState([
         {
-            name: "Spelling",
+            name: "2048",
             url:
-                "https://knowtechie.com/wp-content/uploads/2021/03/dogecoin-meme-1000x600.jpg"
+                "http://cs.txstate.edu/~rge15/2048Game.png"
         },
     ]);
 
@@ -47,7 +46,7 @@ function TinderCards() {
         <div className="gameContainer">
      
         {people1.map(person => (
-            <Link to="/game-pages/GamePage">
+            <Link to="/game-pages/Matching">
             <IconButton>
             <TinderCard
             className="swipe"
@@ -66,7 +65,7 @@ function TinderCards() {
         ))}
 
         {people2.map(person => (
-            <Link to="/game-pages/GamePage">
+            <Link to="/game-pages/Sliding">
             <IconButton>
             <TinderCard
             className="swipe"
@@ -83,8 +82,8 @@ function TinderCards() {
             </IconButton>
             </Link>
         ))}
-                {people3.map(person => (
-            <Link to="/game-pages/Spelling">
+        {people3.map(person => (
+            <Link to="/game-pages/My2048">
             <IconButton>
             <TinderCard
             className="swipe"
@@ -105,5 +104,7 @@ function TinderCards() {
     </div> 
   );
 }
+
+
 
 export default TinderCards

@@ -1,10 +1,8 @@
 import React from 'react';
-import App from './../App';
 import Header from './../components/Header';
 import NavBar from './../components/NavBar';
 import SubMenu from '../components/SubMenu';
-import { SidebarData } from '../components/SidebarData';
-import TinderCards from './../components/TinderCards';
+
 
 import { render } from '@testing-library/react';
 import '@testing-library/jest-dom';
@@ -131,16 +129,16 @@ test("Test correct route for TicTacToe game - Should render the SubMenu buttons 
     expect(screen.getByText("SubMenuMock")).toBeInTheDocument();
 });
 
-/* NOT IMPLEMENTED YET
-//TEST # - SubMenu, Sliding Puzzle button
-
+/*
+TEST 6 - SubMenu, Sliding Puzzle button
+*/
 test("Test correct route for Sliding Puzzle game - Should render the SubMenu buttons and the Header with the appropriate route", () => {
     //Arrange
     Header.mockImplementation(() => <div>HeaderMock</div>);
     SubMenu.mockImplementation(() => <div>SubMenuMock</div>);
     //Act
     render(
-        <MemoryRouter initialEntries={['/../pages/game-pages/[INSERT FILE NAME]']}>
+        <MemoryRouter initialEntries={['/../pages/game-pages/Sliding']}>
             <Header/>
             <SubMenu/>
         </MemoryRouter>
@@ -149,59 +147,21 @@ test("Test correct route for Sliding Puzzle game - Should render the SubMenu but
     expect(screen.getByText("HeaderMock")).toBeInTheDocument();
     expect(screen.getByText("SubMenuMock")).toBeInTheDocument();
 });
+
+
+
+
+
+/*
+//TEST 7 - SubMenu, kart button
 */
-
-
-/* NOT IMPLEMENTED YET
-//TEST # - SubMenu, Letters button
-
-test("Test correct route for letters game - Should render the SubMenu buttons and the Header with the appropriate route", () => {
-    //Arrange
-    Header.mockImplementation(() => <div>HeaderMock</div>);
-    SubMenu.mockImplementation(() => <div>SubMenuMock</div>);
-    //Act
-    render(
-        <MemoryRouter initialEntries={['/../pages/game-pages/[INSERT FILE NAME]']}>
-            <Header/>
-            <SubMenu/>
-        </MemoryRouter>
-    );
-    //Assert
-    expect(screen.getByText("HeaderMock")).toBeInTheDocument();
-    expect(screen.getByText("SubMenuMock")).toBeInTheDocument();
-});
-*/
-
-/* NOT IMPLEMENTED YET
-//TEST # - SubMenu, numbers button
-
-test("Test correct route for numbers game - Should render the SubMenu buttons and the Header with the appropriate route", () => {
-    //Arrange
-    Header.mockImplementation(() => <div>HeaderMock</div>);
-    SubMenu.mockImplementation(() => <div>SubMenuMock</div>);
-    //Act
-    render(
-        <MemoryRouter initialEntries={['/../pages/game-pages/[INSERT FILE NAME]']}>
-            <Header/>
-            <SubMenu/>
-        </MemoryRouter>
-    );
-    //Assert
-    expect(screen.getByText("HeaderMock")).toBeInTheDocument();
-    expect(screen.getByText("SubMenuMock")).toBeInTheDocument();
-});
-*/
-
-/* NOT IMPLEMENTED YET
-//TEST # - SubMenu, kart button
-
 test("Test correct route for kart game - Should render the SubMenu buttons and the Header with the appropriate route", () => {
     //Arrange
     Header.mockImplementation(() => <div>HeaderMock</div>);
     SubMenu.mockImplementation(() => <div>SubMenuMock</div>);
     //Act
     render(
-        <MemoryRouter initialEntries={['/../pages/game-pages/[INSERT FILE NAME]']}>
+        <MemoryRouter initialEntries={['/../pages/game-pages/Karts']}>
             <Header/>
             <SubMenu/>
         </MemoryRouter>
@@ -210,18 +170,18 @@ test("Test correct route for kart game - Should render the SubMenu buttons and t
     expect(screen.getByText("HeaderMock")).toBeInTheDocument();
     expect(screen.getByText("SubMenuMock")).toBeInTheDocument();
 });
+
+
+/*
+//TEST 8 - SubMenu, snake button
 */
-
-/* NOT IMPLEMENTED YET
-//TEST # - SubMenu, snake button
-
 test("Test correct route for snake game - Should render the SubMenu buttons and the Header with the appropriate route", () => {
     //Arrange
     Header.mockImplementation(() => <div>HeaderMock</div>);
     SubMenu.mockImplementation(() => <div>SubMenuMock</div>);
     //Act
     render(
-        <MemoryRouter initialEntries={['/../pages/game-pages/[INSERT FILE NAME]']}>
+        <MemoryRouter initialEntries={['/../pages/game-pages/Snake']}>
             <Header/>
             <SubMenu/>
         </MemoryRouter>
@@ -230,4 +190,42 @@ test("Test correct route for snake game - Should render the SubMenu buttons and 
     expect(screen.getByText("HeaderMock")).toBeInTheDocument();
     expect(screen.getByText("SubMenuMock")).toBeInTheDocument();
 });
+
+/* NOT IMPLEMENTED YET
+//TEST # - SubMenu, Letters button
+test("Test correct route for letters game - Should render the SubMenu buttons and the Header with the appropriate route", () => {
+    //Arrange
+    Header.mockImplementation(() => <div>HeaderMock</div>);
+    SubMenu.mockImplementation(() => <div>SubMenuMock</div>);
+    //Act
+    render(
+        <MemoryRouter initialEntries={['/../pages/game-pages/Letters']}>
+        <Header/>
+        <SubMenu/>
+        </MemoryRouter>
+        );
+        //Assert
+        expect(screen.getByText("HeaderMock")).toBeInTheDocument();
+        expect(screen.getByText("SubMenuMock")).toBeInTheDocument();
+    });
+*/
+    
+    
+/* NOT IMPLEMENTED YET
+//TEST # - SubMenu, numbers button
+test("Test correct route for numbers game - Should render the SubMenu buttons and the Header with the appropriate route", () => {
+    //Arrange
+    Header.mockImplementation(() => <div>HeaderMock</div>);
+    SubMenu.mockImplementation(() => <div>SubMenuMock</div>);
+    //Act
+    render(
+        <MemoryRouter initialEntries={['/../pages/game-pages/Numbers']}>
+        <Header/>
+        <SubMenu/>
+        </MemoryRouter>
+        );
+        //Assert
+        expect(screen.getByText("HeaderMock")).toBeInTheDocument();
+        expect(screen.getByText("SubMenuMock")).toBeInTheDocument();
+    });
 */
