@@ -27,8 +27,8 @@ justify-content: center;
 `;
 // lines 29 31
 const links = [
-    {name: "Spelling", path:"/game-pages/Spelling"},
-    {name: "LeaderBoard", path:"/LeaderBoard"},
+  {name: "GamePage", path:"../game-pages/Spelling"},
+  {name: "LeaderBoard", path:"/leaderboard-pages/LeaderBoard-Spelling"},
 ];
 // remove lines 37 - 43
 function Spelling() {

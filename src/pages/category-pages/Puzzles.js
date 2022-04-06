@@ -13,7 +13,7 @@ function TinderCards() {
         {
             name: "Matching",
             url: 
-                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtcMcZkB-rKi9x9_S6jhSDLPQb8H81j4B66g&usqp=CAU"
+                "http://cs.txstate.edu/~rge15/matchingGame.png"
                 
         },
     ]);
@@ -23,7 +23,7 @@ function TinderCards() {
         
             name: "Sliding Puzzle",
             url: 
-                "https://as2.ftcdn.net/v2/jpg/01/12/40/89/1000_F_112408906_RalYyQ3bYdVtrQD9cVN2h0TuvM9CT9Zk.jpg"
+                "http://cs.txstate.edu/~rge15/puzzleGame.png"
         
         },
  
@@ -33,7 +33,7 @@ function TinderCards() {
         {
             name: "2048",
             url:
-                "https://knowtechie.com/wp-content/uploads/2021/03/dogecoin-meme-1000x600.jpg"
+                "http://cs.txstate.edu/~rge15/2048Game.png"
         },
     ]);
 

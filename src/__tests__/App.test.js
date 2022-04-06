@@ -2,9 +2,9 @@ import React from 'react';
 import App from './../App';
 import Header from './../components/Header';
 import TinderCards from './../components/TinderCards';
-//import FirstnSecond from './../pages/age-group-pages/FirstnSecond';
-//import ThirdnFourth from './../pages/age-group-pages/ThirdnFourth';
-//import FifthnSix from './../pages/age-group-pages/FifthnSix';
+//import FirstnSecond from './../pages/category-pages/FirstnSecond';
+//import ThirdnFourth from './../pages/category-pages/ThirdnFourth';
+//import FifthnSix from './../pages/category-pages/FifthnSix';
 
 import { render } from '@testing-library/react';
 import '@testing-library/jest-dom';
@@ -14,9 +14,9 @@ import { screen, configure } from '@testing-library/react'
 
 jest.mock('./../components/Header');
 jest.mock('./../components/TinderCards');
-jest.mock('./../pages/age-group-pages/ActionAdventure');
-jest.mock('./../pages/age-group-pages/LettersNumbers');
-jest.mock('./../pages/age-group-pages/Puzzles');
+jest.mock('./../pages/category-pages/ActionAdventure');
+jest.mock('./../pages/category-pages/LettersNumbers');
+jest.mock('./../pages/category-pages/Puzzles');
 
 /*
 TEST 1 - Home page and header
@@ -45,7 +45,7 @@ test("Should render ActionAdventure page and header with ActionAdventure route",
     TinderCards.mockImplementation(() => <div>ActionAdventureMock</div>);
     //Act
     render(
-        <MemoryRouter initialEntries={['/../pages/age-group-pages/ActionAdventure']}>
+        <MemoryRouter initialEntries={['/../pages/category-pages/ActionAdventure']}>
             <App/>
         </MemoryRouter>
     );
@@ -63,7 +63,7 @@ test("Should render LettersNumbers page and header with LettersNumbers route", (
     TinderCards.mockImplementation(() => <div>LettersNumbersMock</div>);
     //Act
     render(
-        <MemoryRouter initialEntries={['/../pages/age-group-pages/LettersNumbers']}>
+        <MemoryRouter initialEntries={['/../pages/category-pages/LettersNumbers']}>
             <App/>
         </MemoryRouter>
     );
@@ -81,7 +81,7 @@ test("Should render Puzzles page and header with Puzzles route", () => {
     TinderCards.mockImplementation(() => <div>PuzzlesMock</div>);
     //Act
     render(
-        <MemoryRouter initialEntries={['/../pages/age-group-pages/Puzzles']}>
+        <MemoryRouter initialEntries={['/../pages/category-pages/Puzzles']}>
             <App/>
         </MemoryRouter>
     );

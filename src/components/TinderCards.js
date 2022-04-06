@@ -6,6 +6,7 @@ import './TinderCards.css';
 import { IconButton } from '@mui/material';
 import { Route, Link} from "react-router-dom"
 
+
 // An array of what is in the containers
 
 function TinderCards() {
@@ -14,7 +15,7 @@ function TinderCards() {
         {
             name: "Puzzles",
             url: 
-                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtcMcZkB-rKi9x9_S6jhSDLPQb8H81j4B66g&usqp=CAU"
+                "http://cs.txstate.edu/~rge15/puzzle.png"
                 
         },
     ]);
@@ -24,7 +25,7 @@ function TinderCards() {
         
             name: "Letters & Numbers",
             url: 
-                "https://as2.ftcdn.net/v2/jpg/01/12/40/89/1000_F_112408906_RalYyQ3bYdVtrQD9cVN2h0TuvM9CT9Zk.jpg"
+                "http://cs.txstate.edu/~rge15/letters&numbers.png"
         
         },
  
@@ -34,7 +35,7 @@ function TinderCards() {
         {
             name: "Action Adventure",
             url:
-                "https://knowtechie.com/wp-content/uploads/2021/03/dogecoin-meme-1000x600.jpg"
+                "http://cs.txstate.edu/~rge15/actionAdventure.png"
         },
     ]);
 
