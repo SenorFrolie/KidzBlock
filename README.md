@@ -147,42 +147,86 @@ We are missing web game development experience. None of the developers have ever
 
 # Sprint 2 - Contributions and Next Steps
 * Jake Elrod
-    * Done:
-    * Jira Task: KID-63 - "Matching" game implement back end and connect to leader board
-    * Next Steps:
-    * Jira Task: KID-60 - Edit source code of "Matching" "Puzzle" game 
-    * Jira Task: KID-61 - Give "Matching" game source code proper citation
+    * Jira Task: KID-60 - Provide Proper Citation for all 9 games
+        * In this task, I edited the README.md file and added the proper citation for each individual game. The 
+        * citation for each game includes a reference to the creator's GitHub source code and the creator's name.
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/dcb792922abce58203ee4644b68707635c21b815
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/243f165c8671f4e5a2702b8da412e03448c6f201
+    * Jira Task: KID-61 - Implement "2048" game into the website
+        * In this task, I implemented the game "2048" into the web page. The "2048" game is implemented but in later
+        * sprints needs to be updated to obtain the users score and send this score to the backend to be utilized 
+        * by the leader board.  
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/ff0184b087f0583542b8bd2920c1cd67141b3e1c
     * Jira Task: KID-62 - Implement "Matching" game into the website
+        * In this task, I implemented the game "Matching" into the web page. The "Matching" game is implemented but in later
+        * sprints needs to be updated to obtain the users score and send this score to the backend to be utilized 
+        * by the leader board.
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/25d286c6541070925a75c91071c6e21f7b9efb88
+    * Jira Task: KID-63 - Implement "Spelling" game into the website
+        * In this task, I implemented the game "Spelling" into the web page. The "Spelling" game is implemented but in later
+        * sprints needs to be updated to obtain the users score and send this score to the backend to be utilized 
+        * by the leader board.
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/8bd78ad2b54a12ac531cf5324afaa6e80b116e7a
+    * Jira Task: KID-64 - Create proper "research and related documents" document for researched evidence
+        * In this task, I updated each resource file to have the declaired resource document structure designated
+        * by the professor. I also change some of the games that were previously going to be implemented into 
+        * games are better suitable for this project. Inorder to reflect the game changes the "9 Games - KID 21 - Elrod"
+        * and "Categorizing Game - KID 32 - Elrod " files.
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/f26b2d3fc942da64444a4f99219c1d125e4f613b
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/c9f3b879a5766af2f5b400af21fe6cece4e7837b
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/9311b2a9b8febf45b25afe4a2a6d0491b81ff098
+    * Next Steps: In the next sprint, I will be editing the source code to some of the games as well as connect the
+        games to the leader board
+    
+* Oscar Fortanel Benitez
+    * Done:
+    * Jira Task: KID-78 - Created new end-point to receive high scores
+    * Jira Task: KID-79 - Modify backend for name high scores
+    * Jira Task: KID-80 - Host games on remote server
+    * Jira Task: KID-81 - Implement logic to receive scores
+    * Jira Task: KID-82 - Create example JS interface
+    * Next Steps:
+    * Finish back end
+    
+* Robert Bonham
+    * Jira Task:KID-73 - Implement Tic-Tac-Toe game to our website 
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/1d644d23ee57355b710375d582122dc707d76551
+    * Jira Task:KID-74 - Once implemented refactor Tic-Tac-toe game 
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/c0382c4d07c3a08209ab36550eba3cfaa7a89124
+    * Jira Task:KID-83 -  Implement Snake onto our website
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/b6e18ec5983c2db222b585438a2e1b5f5bdf64d4
+    * Jira Task:KID-72 - Research how to implement games to run on our website. 
 
 # Acknowledgements
 * Logo by: Jacob Lopez 
-* Referenced: EnvatoElements.com
+    * Referenced: EnvatoElements.com
+
 
 * Game Compilation by: Jake Elrod
-* Game: Matching
-    * Reference: https://github.com/weilemann/Memory-Game
-    * Creator: Yuri Weilemann
-* Game: Sliding Puzzle
-    * Reference: https://github.com/diox/web-sliding-puzzle	
-    * Creator: Mathieu Pillard
-* Game: 2048
-    * Reference: https://github.com/gabrielecirulli/2048
-    * Creator: Gabriele Cirulli 
-* Game: Letters
-    * Reference: https://github.com/alejandrosobko/tikijuegos
-    * Creator: Alejandro Sobko
-* Game: Numbers
-    * Reference: https://github.com/alejandrosobko/tikijuegos
-    * Creator: Alejandro Sobko
-* Game: Spelling
-    * Reference: https://github.com/moof2k/wordgame	
-    * Creator: Robert Rose
-* Game: Kart
-    * Reference: https://github.com/vrana/games
-    * Creator: Jakub Vrána
-* Game: Snake
-    * Reference: https://github.com/vrana/games
-    * Creator: Jakub Vrána
-* Game: Tic-Tac-Toe
-    * Reference: https://github.com/imhta/tic-tac-toe-web
-    * Creator: Pon Muthu Selvam N
+    * Game: Matching
+        * Reference: https://github.com/weilemann/Memory-Game
+        * Creator: Yuri Weilemann
+    * Game: Sliding Puzzle
+        * Reference: https://github.com/diox/web-sliding-puzzle	
+        * Creator: Mathieu Pillard
+    * Game: 2048
+        * Reference: https://github.com/gabrielecirulli/2048
+        * Creator: Gabriele Cirulli 
+    * Game: Letters
+        * Reference: https://github.com/alejandrosobko/tikijuegos
+        * Creator: Alejandro Sobko
+    * Game: Numbers
+        * Reference: https://github.com/alejandrosobko/tikijuegos
+        * Creator: Alejandro Sobko
+    * Game: Spelling
+        * Reference: https://github.com/moof2k/wordgame	
+        * Creator: Robert Rose
+    * Game: Kart
+        * Reference: https://github.com/vrana/games
+        * Creator: Jakub Vrána
+    * Game: Snake
+        * Reference: https://github.com/vrana/games
+        * Creator: Jakub Vrána
+    * Game: Tic-Tac-Toe
+        * Reference: https://github.com/imhta/tic-tac-toe-web
+        * Creator: Pon Muthu Selvam N

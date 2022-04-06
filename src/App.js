@@ -10,8 +10,11 @@ import ActionAdventure from './pages/category-pages/ActionAdventure';
 import Profile from './pages/Profile';
 import TicTacToe from './pages/game-pages/TicTacToe'
 import My2048 from './pages/game-pages/My2048'
+import Karts from './pages/game-pages/Karts'
 import Spelling from './pages/game-pages/Spelling'
 import Matching from './pages/game-pages/Matching'
+import Sliding from './pages/game-pages/Sliding'
+import Snake from './pages/game-pages/Snake';
 //import SlidingPuzzle from './pages/game-pages/SlidingPuzzle'
 //import Letters from './pages/game-pages/Letters'
 //import Numbers from './pages/game-pages/Numbers'
@@ -46,9 +49,14 @@ function App() {
   */}
           <Route path='/Profile' exact component={Profile} />
           <Route path='/game-pages/TicTacToe' exact component={TicTacToe} />
+          <Route path='/game-pages/TicTacToe' exact component={TicTacToe} />
           <Route path='/game-pages/My2048' exact component={My2048} />
+          <Route path='/game-pages/Karts' exact component={Karts} />
           <Route path='/game-pages/Spelling' exact component={Spelling} />
           <Route path='/game-pages/Matching' exact component={Matching} />
+          <Route path='/game-pages/Sliding' exact component={Sliding} />
+          <Route path='/game-pages/Snake' exact component={Snake} />
+
           {/*
           <Route path='/game-pages/Letters' exact component={Letters} />
           <Route path='/game-pages/SlidingPuzzle' exact component={SlidingPuzzle} />

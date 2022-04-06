@@ -36,5 +36,42 @@
             }
             return $response;
         }
+
+		// Compare new score with score in BD for a given game
+        function compareScoresFromGame($g_id, $score){ 
+			$high = 0;
+            $stmt = $this-> con->prepare("SELECT * FROM names WHERE g_id=?");
+            $stmt->bind_param("i", $g_id);
+
+            if($res = $stmt->execute()){
+				$results = $stmt->get_result();
+				$rows = $results->fetch_all(MYSQLI_ASSOC);
+
+				foreach ($rows as $row){
+					$high = max($high, $row['score']);
+				}
+
+				// Check if score is greater than current high
+				if($score > $high){
+					return true;
+				}else{
+					return false;
+				}
+
+            }
+        }
+
+        // Insert data to the data base
+        function insertScore($g_id, $score, $name){
+            $now = date("Y-m-d H:i:s");
+            $stmt = $this-> con->prepare("INSERT INTO names (id, name, score, g_id, date) VALUES (NULL, ?, ?, ?, NOW())");
+            $stmt->bind_param("sii", $name, $score, $g_id);
+
+            if ($res = $stmt->execute()){
+                return true;
+            }else{
+                return false;
+            }
+        }
     }
 ?>
