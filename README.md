@@ -187,6 +187,15 @@ We are missing web game development experience. None of the developers have ever
     * Jira Task: KID-82 - Create example JS interface
     * Next Steps:
     * Finish back end
+    
+* Robert Bonham
+    * Jira Task:KID-73 - Implement Tic-Tac-Toe game to our website 
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/1d644d23ee57355b710375d582122dc707d76551
+    * Jira Task:KID-74 - Once implemented refactor Tic-Tac-toe game 
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/c0382c4d07c3a08209ab36550eba3cfaa7a89124
+    * Jira Task:KID-83 -  Implement Snake onto our website
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/b6e18ec5983c2db222b585438a2e1b5f5bdf64d4
+    * Jira Task:KID-72 - Research how to implement games to run on our website. 
 
 # Acknowledgements
 * Logo by: Jacob Lopez 
