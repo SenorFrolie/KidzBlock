@@ -190,33 +190,34 @@ We are missing web game development experience. None of the developers have ever
 
 # Acknowledgements
 * Logo by: Jacob Lopez 
-* Referenced: EnvatoElements.com
+    * Referenced: EnvatoElements.com
+
 
 * Game Compilation by: Jake Elrod
-* Game: Matching
-    * Reference: https://github.com/weilemann/Memory-Game
-    * Creator: Yuri Weilemann
-* Game: Sliding Puzzle
-    * Reference: https://github.com/diox/web-sliding-puzzle	
-    * Creator: Mathieu Pillard
-* Game: 2048
-    * Reference: https://github.com/gabrielecirulli/2048
-    * Creator: Gabriele Cirulli 
-* Game: Letters
-    * Reference: https://github.com/alejandrosobko/tikijuegos
-    * Creator: Alejandro Sobko
-* Game: Numbers
-    * Reference: https://github.com/alejandrosobko/tikijuegos
-    * Creator: Alejandro Sobko
-* Game: Spelling
-    * Reference: https://github.com/moof2k/wordgame	
-    * Creator: Robert Rose
-* Game: Kart
-    * Reference: https://github.com/vrana/games
-    * Creator: Jakub Vrána
-* Game: Snake
-    * Reference: https://github.com/vrana/games
-    * Creator: Jakub Vrána
-* Game: Tic-Tac-Toe
-    * Reference: https://github.com/imhta/tic-tac-toe-web
-    * Creator: Pon Muthu Selvam N
+    * Game: Matching
+        * Reference: https://github.com/weilemann/Memory-Game
+        * Creator: Yuri Weilemann
+    * Game: Sliding Puzzle
+        * Reference: https://github.com/diox/web-sliding-puzzle	
+        * Creator: Mathieu Pillard
+    * Game: 2048
+        * Reference: https://github.com/gabrielecirulli/2048
+        * Creator: Gabriele Cirulli 
+    * Game: Letters
+        * Reference: https://github.com/alejandrosobko/tikijuegos
+        * Creator: Alejandro Sobko
+    * Game: Numbers
+        * Reference: https://github.com/alejandrosobko/tikijuegos
+        * Creator: Alejandro Sobko
+    * Game: Spelling
+        * Reference: https://github.com/moof2k/wordgame	
+        * Creator: Robert Rose
+    * Game: Kart
+        * Reference: https://github.com/vrana/games
+        * Creator: Jakub Vrána
+    * Game: Snake
+        * Reference: https://github.com/vrana/games
+        * Creator: Jakub Vrána
+    * Game: Tic-Tac-Toe
+        * Reference: https://github.com/imhta/tic-tac-toe-web
+        * Creator: Pon Muthu Selvam N
