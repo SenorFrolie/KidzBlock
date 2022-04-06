@@ -153,6 +153,16 @@ We are missing web game development experience. None of the developers have ever
     * Jira Task: KID-60 - Edit source code of "Matching" "Puzzle" game 
     * Jira Task: KID-61 - Give "Matching" game source code proper citation
     * Jira Task: KID-62 - Implement "Matching" game into the website
+    
+* Oscar Fortanel Benitez
+    * Done:
+    * Jira Task: KID-78 - Created new end-point to receive high scores
+    * Jira Task: KID-79 - Modify backend for name high scores
+    * Jira Task: KID-80 - Host games on remote server
+    * Jira Task: KID-81 - Implement logic to receive scores
+    * Jira Task: KID-82 - Create example JS interface
+    * Next Steps:
+    * Finish back end
 
 # Acknowledgements
 * Logo by: Jacob Lopez 
