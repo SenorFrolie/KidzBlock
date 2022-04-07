@@ -214,6 +214,37 @@ We are missing web game development experience. None of the developers have ever
         * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/b2fb019788e4e58f8a911a0474e9e375737604d6
     * Next Steps: My next steps will probably to work on implementing different types of test cases that aren't just unit tests (something like regression tests). I may also help out getting the leaderboards functional (send game scores to Oscar's API endpoint).
 
+* Jacob Lopez
+    * Jira Task: KID-65 - Add source code for Sliding puzzle game.
+        * For this task I integrated code found online for our sliding game and refactored it to our site. 
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/17797b2dbba5e974ac038bc2125fbd00fff508b7
+    * Jira Task: KID-66 - Add source code for "Race" adventure game.
+        * For this task I integrated code found online for our racing game and refactored it to our site. 
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/2d6ba313d2b33da30808403a541f2ca5f1a96ecb
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/d3582a6ea078a1a02e287cf639db6718a974ebed
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/a0cfb14aa8dc05652799633c5a40304f196003b0
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/7188d3b600839f7da62f9d1f60329ebb28e7b4fe
+    * Jira Task: KID-67 - implement "Sliding/Puzzle' game into website
+        * For this task I took the code I refactored for the sliding game and edited various files to properly host the game on our site
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/17797b2dbba5e974ac038bc2125fbd00fff508b7
+    * Jira Task: KID-68 - implement "Sliding/Puzzle' game into website
+        * For this task I took the code I refactored for the Race game and edited various files to properly host the game on our site
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/7d6fefd8d64033bf7c7c4ce32128884664b66e87
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/7188d3b600839f7da62f9d1f60329ebb28e7b4fe
+    * Jira Task: KID-69 - Add remaining games
+        * For this task I added the skeleton files for the implementation of our future games that we have spots for but no game selected
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/af6129e82159a33998ab331f25e05ac855bed25e
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/1a4ea6909fda5145e9d3b370e72fa1ff96d8bcb3
+            * this commit was required a pull request which was completed by Robert Elizando 
+    * My Next Steps:  will be working on media breaks to ensure the site is reposive on different devices and more refactoring of games to change re-used code as much as possible for the games (new images for game pieces, renaming games and adding our logo)
+        
+        
+        
+        
+        
+    
+    
+
 # Acknowledgements
 * Logo by: Jacob Lopez 
     * Referenced: EnvatoElements.com
