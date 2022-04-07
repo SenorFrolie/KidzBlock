@@ -197,6 +197,23 @@ We are missing web game development experience. None of the developers have ever
         * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/b6e18ec5983c2db222b585438a2e1b5f5bdf64d4
     * Jira Task:KID-72 - Research how to implement games to run on our website. 
 
+* Robert Elizondo
+    * Jira Task: KID-52 - Refactor our file structure to make more sense - keep all components in the same folder, all images in the same folder, etc.
+        * For this task, I fixed my mistakes from sprint 1 related to our directory structure, and made some minor changes to various pieces of the code.
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/a957c9198d2ad2d9555034ffbd30980d7edb6b88
+    * Jira Task: KID-53 - Create individual leaderboard pages, fix links among game pages/leaderboard pages, and change the button art
+        * For this task, I changed the images for our buttons to match what Jake had created. I also created the leaderboard pages for each game (populated with dummy data at the moment), and fixed the routing issues between the gamepage buttons and the leaderboard page buttons.
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/fcc08ed554db7b22a06a9cb4bb71e8e404ff5a32
+    * Jira Task: KID-54 - Create unit tests for the NavBar class
+        * For this task, I made unit tests to make sure the buttons on the navbar actually route to the pages we're expecting them to route to.
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/c4b23bf0fe4e087fdf48284484aa7b8f359493a8
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/6835c01cd94f6fb4b892ac79dd91b4941f254476
+    * Jira Task: KID-55 - Create unit tests for the App class
+        * For this task, I made unit tests to make sure that the buttons on the home page actually route to the pages we're expecting them to route to.
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/3004eab5f81bc89465190ff620f0e0270e730b0c
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/b2fb019788e4e58f8a911a0474e9e375737604d6
+    * Next Steps: My next steps will probably to work on implementing different types of test cases that aren't just unit tests (something like regression tests). I may also help out getting the leaderboards functional (send game scores to Oscar's API endpoint).
+
 # Acknowledgements
 * Logo by: Jacob Lopez 
     * Referenced: EnvatoElements.com
