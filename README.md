@@ -181,12 +181,22 @@ We are missing web game development experience. None of the developers have ever
 * Oscar Fortanel Benitez
     * Done:
     * Jira Task: KID-78 - Created new end-point to receive high scores
+        * Created new end-point for front-end to connect satisfying the new requierements
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/9c94c705823b9d10d6c6441c36c1e89891c2ef1e
     * Jira Task: KID-79 - Modify backend for name high scores
+        * Modified and created new data base tables to hold new data 
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/b55b075fbe44b5cb274938c5feb7f8c178ef42c8
     * Jira Task: KID-80 - Host games on remote server
+        * Uploaded games to server for proper display
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/96cba3d466cde2ce5819f1f368869b9944ee0462
     * Jira Task: KID-81 - Implement logic to receive scores
+        * Implemented logic for new end-point
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/8dc7b3aa8dc0b89dec547b4d66022f4321beab39
     * Jira Task: KID-82 - Create example JS interface
+        * Created quick API call JS script as an example of how to connect
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/c7dca1ed0094f7c34018a7338927b5c732c2a863
     * Next Steps:
-    * Finish back end
+    * Finish back end and help refactor game code to submit information to the API
     
 * Robert Bonham
     * Jira Task:KID-73 - Implement Tic-Tac-Toe game to our website 
