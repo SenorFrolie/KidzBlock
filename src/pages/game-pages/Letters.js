@@ -1,8 +1,7 @@
 import React from 'react'
-import { Route, Link, NavLink} from "react-router-dom"
-import { Container } from "reactstrap";
-import './Letters.css'
-import styled, { css } from 'styled-components'
+import { NavLink } from "react-router-dom"
+import './css/game-page.css'
+import styled from 'styled-components'
 
 const NavUnlisted = styled.ul`
 display: flex;
@@ -25,27 +24,30 @@ justify-content: center;
   }
 }
 `;
-// lines 29 31
+//Buttons for switching from game page to leaderboard
 const links = [
     {name: "Letters", path:"/game-pages/Letters"},
     {name: "LeaderBoard", path:"/LeaderBoard"},
 ];
-// remove lines 37 - 43
+
 function Letters() {
   return (
-        <><div className="window">
+    <>
+      <div className="window">
+{/*Use NavLink to make the Buttons go to the correct pages */}
         <NavUnlisted>
-  {links.map((link,index) => (
-    <NavLink key={index} to={link.path} exact activeClassName="current">
-      <li>{link.name}</li>
-    </NavLink>
-  ))}
-</NavUnlisted>
-    </div>
+          {links.map((link,index) => (
+            <NavLink key={index} to={link.path} exact activeClassName="current">
+              <li>{link.name}</li>
+            </NavLink>
+          ))}
+        </NavUnlisted>
+      </div>
       <div className="playWindow">
-              <h1 className='gamePageHeading'>Letters</h1>
-              <iframe src="https://txstate.oscarfortanel.dev/CS3398/kidzblocks/games/Memory-Game/" width="1450" height="1000"></iframe>
-          </div></>
+        <h1 className='gamePageHeading'>Letters</h1>
+        <iframe src="https://txstate.oscarfortanel.dev/CS3398/kidzblocks/games/Memory-Game/" width="1450" height="1000" title="Letters"></iframe>
+      </div>
+    </>
   );
 }
 
