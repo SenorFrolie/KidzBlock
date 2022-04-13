@@ -1,11 +1,10 @@
 import React from 'react';
 import Header from '../components/Header';
 import Puzzles from '../pages/category-pages/Puzzles';
-
 import { render } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import { MemoryRouter } from 'react-router-dom';
-import { screen, configure } from '@testing-library/react'
+import { screen } from '@testing-library/react'
 
 jest.mock('./../components/Header');
 jest.mock('./../pages/category-pages/Puzzles');

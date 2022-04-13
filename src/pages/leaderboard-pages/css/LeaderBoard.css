@@ -42,8 +42,8 @@
 
 .board .duration > button{
     border: 1px solid var(--color-light);
-    padding: .5em 2em;
     border-radius: 50px;
+    padding: .5em 2em;
     background-color: transparent;
     cursor: pointer;
     --color-dark: #2C3131;
@@ -72,6 +72,10 @@
     gap: 1em;
     text-align: left;
     margin-bottom: 2em;
+    border-radius: 10%;
+    border-color: #ebebeb;
+    border-style: ridge;
+    padding: 15px;
 }
 
 #profile .flex .item{
@@ -121,4 +125,52 @@
 .window .selector > button:hover{
     background-color: var(--color-dark);
     color: var(--color-light);
+}
+
+.category{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10%;
+    margin:1%;
+    border-color: #ebebeb;
+    border-style: ridge;
+}
+
+
+.leaderboardGameContainer {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+.leaderboardGameCard {
+    position: relative;
+    width: 300px;
+    padding: 20px;
+    max-width: 185vw;
+    max-height: 20vh;
+    height: 50vh;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 18px 53px 0px rgba(0, 0, 0, 0.993);
+}
+
+.leaderboardGameCard > h3 {
+    position: absolute;
+    bottom: 15px;
+    color: rgb(78, 255, 62);
+    background-color: rgb(50, 1, 107);
+    justify-content: center;
+    font-size: 110%;
+}
+
+.h1 .h2{
+    color: rgb(78, 255, 62);
+    background-color: rgb(50, 1, 107);
 }

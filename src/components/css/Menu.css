@@ -20,7 +20,8 @@
     font-size: 150%;
 }
 
-.tinderCards__cardContainer {
+
+.Menu__cardContainer {
     align-items: center;
     display: flex;
     justify-content: center;

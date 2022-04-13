@@ -1,109 +1,60 @@
 import React from 'react';
-import TinderCard from "react-tinder-card";
-import {useEffect, useState} from 'react';
-//import database from "./firebase";
-import './../../components/TinderCards.css';
+import Button from "react-tinder-card";
+import { useState } from 'react';
+import './../../components/css/Menu.css';
 import { IconButton } from '@mui/material';
-import { Route, Link} from "react-router-dom"
+import { Link } from "react-router-dom"
 
-// An array of what is in the containers
+function Menu() {
 
-function TinderCards() {
+    // Button data (image and name)
+    const [letters] = useState([{name: "Letters", url: "http://cs.txstate.edu/~rge15/alphabetGame.png"},]);
+    const [numbers] = useState([{name: "Numbers", url: "http://cs.txstate.edu/~rge15/numberGame.png"},]);
+    const [spelling] = useState([{name: "Spelling", url: "http://cs.txstate.edu/~rge15/spellingGame.png"},]);
 
-    const [people1, setPeople1] = useState([
-        {
-            name: "Letters",
-            url: 
-                "http://cs.txstate.edu/~rge15/alphabetGame.png"
-                
-        },
-    ]);
-
-    const [people2, setPeople2] = useState([
-        {
-        
-            name: "Numbers",
-            url: 
-                "http://cs.txstate.edu/~rge15/numberGame.png"
-        
-        },
- 
-    ]);
-
-    const [people3, setPeople3] = useState([
-        {
-            name: "Spelling",
-            url:
-                "http://cs.txstate.edu/~rge15/spellingGame.png"
-        },
-    ]);
-
-
-    // The card Containers itself
-  return (
-      
-    <div> 
-        
-        <div className="gameContainer">
-     
-        {people1.map(person => (
-            <Link to="/game-pages/GamePage">
-            <IconButton>
-            <TinderCard
-            className="swipe"
-            key={person.name}
-            preventSwipe={['up','down','left','right']}
-            >
-                <div 
-                style={{ backgroundImage: `url(${person.url})` }}
-                className="gameCard"
-                >
-                    <h3>{person.name}</h3>
-                </div>
-            </TinderCard>
-            </IconButton>
-            </Link>
-        ))}
-
-        {people2.map(person => (
-            <Link to="/game-pages/GamePage">
-            <IconButton>
-            <TinderCard
-            className="swipe"
-            key={person.name}
-            preventSwipe={['up','down','left','right']}
-            >
-                <div 
-                style={{ backgroundImage: `url(${person.url})` }}
-                className="gameCard"
-                >
-                    <h3>{person.name}</h3>
-                </div>
-            </TinderCard>
-            </IconButton>
-            </Link>
-        ))}
-                {people3.map(person => (
-            <Link to="/game-pages/Spelling">
-            <IconButton>
-            <TinderCard
-            className="swipe"
-            key={person.name}
-            preventSwipe={['up','down','left','right']}
-            >
-                <div 
-                style={{ backgroundImage: `url(${person.url})` }}
-                className="gameCard"
-                >
-                    <h3>{person.name}</h3>
-                </div>
-            </TinderCard>
-            </IconButton>
-            </Link>
-        ))}
-        </div>  
-    </div> 
-  );
+    // Mapping button data to Buttons
+    return (
+        <div> 
+            <div className="gameContainer">
+                {/* Letters Game Button */}
+                {letters.map(button => (
+                    <Link to="/game-pages/Letters">
+                        <IconButton>
+                            <Button className="swipe" key={button.name} preventSwipe={['up','down','left','right']}>
+                                <div style={{ backgroundImage: `url(${button.url})` }} className="gameCard">
+                                    <h3>{button.name}</h3>
+                                </div>
+                            </Button>
+                        </IconButton>
+                    </Link>
+                ))}
+                {/* Numbers Game Button */}
+                {numbers.map(button => (
+                    <Link to="/game-pages/numbers">
+                        <IconButton>
+                            <Button className="swipe" key={button.name} preventSwipe={['up','down','left','right']}>
+                                <div style={{ backgroundImage: `url(${button.url})` }} className="gameCard">
+                                    <h3>{button.name}</h3>
+                                </div>
+                            </Button>
+                        </IconButton>
+                    </Link>
+                ))}
+                {/* Spelling Game Button */}
+                {spelling.map(button => (
+                    <Link to="/game-pages/spelling">
+                        <IconButton>
+                            <Button className="swipe" key={button.name} preventSwipe={['up','down','left','right']}>
+                                <div style={{ backgroundImage: `url(${button.url})` }} className="gameCard">
+                                    <h3>{button.name}</h3>
+                                </div>
+                            </Button>
+                        </IconButton>
+                    </Link>
+                ))}
+            </div>  
+        </div> 
+    );
 }
 
-export default TinderCards
+export default Menu
