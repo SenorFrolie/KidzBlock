@@ -2,12 +2,10 @@ import React from 'react';
 import Header from './../components/Header';
 import NavBar from './../components/NavBar';
 import SubMenu from '../components/SubMenu';
-
-
 import { render } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import { MemoryRouter } from 'react-router-dom';
-import { screen, configure } from '@testing-library/react'
+import { screen } from '@testing-library/react'
 
 
 jest.mock('./../components/Header');
