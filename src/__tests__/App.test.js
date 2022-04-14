@@ -7,7 +7,6 @@ import '@testing-library/jest-dom';
 import { MemoryRouter } from 'react-router-dom';
 import { screen } from '@testing-library/react'
 
-
 jest.mock('./../components/Header');
 jest.mock('./../components/Menu');
 jest.mock('./../pages/category-pages/ActionAdventure');
