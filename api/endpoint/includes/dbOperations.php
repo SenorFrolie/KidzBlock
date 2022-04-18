@@ -57,7 +57,6 @@
 				}else{
 					return false;
 				}
-
             }
         }
 
@@ -72,6 +71,37 @@
             }else{
                 return false;
             }
+        }
+
+        // get requested number of scores from game with g_id
+        function getScores($g_id, $quantity){
+            $response = array();
+
+            $stmt = $this-> con->prepare("SELECT name, score, g_id, date  FROM names WHERE g_id=? ORDER BY score DESC");
+            $stmt->bind_param("i", $g_id);
+
+            if ($res = $stmt->execute()){
+                $results = $stmt->get_result();
+                $rows = $results->fetch_all(MYSQLI_ASSOC);
+
+                $response['error'] = false;
+                $response['message'] = "Got scores.";
+
+                $i = 1;
+                foreach ($rows as $row){
+                    $i++;
+                    $response['scores'][] = $row;
+                    if ($i > $quantity)
+                        break;
+                }
+                
+                $response['quantity'] = $i - 1;
+            }else{
+				$response ['error'] = true;
+				$response['message'] = "Could not communicate with data base.";
+            }
+
+            return $response;
         }
     }
 ?>
