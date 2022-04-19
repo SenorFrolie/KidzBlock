@@ -1,5 +1,7 @@
 <?php
 
+	// commit for pull request
+
 	header("Access-Control-Allow-Origin: *");
 
     require_once '../includes/verifyRequest.php';
