@@ -1,6 +1,6 @@
 <?php
 
-	// commit for pull request
+	// commit for pull request again
 
 	header("Access-Control-Allow-Origin: *");
 
