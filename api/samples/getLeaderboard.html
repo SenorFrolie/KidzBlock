@@ -27,7 +27,7 @@
         // set required fields
         data.append("api_token", "8b444736f91f991ce2ab67da833d8d784674a546f8b27d12461dd58992bb20b9");
         data.append("g_id", 1);
-        data.append("quantity", 5);
+        data.append("quantity", 30);
 
         // send request
         xhr.send(data);
@@ -50,7 +50,7 @@
                 console.log(element.date);
             });
 
-            let html = "Error: " + obj.error + "<br> Message: " + obj.message + "Scores: <br><br>";
+            let html = "Error: " + obj.error + "<br> Message: " + obj.message + "<br>Quantity: " + obj.quantity + "<br>Scores:<br><br>";
             obj.scores.forEach(element=>{
                 html += "Name: " + element.name + "<br>Score: " + element.score + "<br>g_id: " + element.g_id + "<br>Date: " + element.date + "<br><br>";
             });
