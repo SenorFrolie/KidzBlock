@@ -1,4 +1,6 @@
 <?php
+
+	// commit for pull request
 	require_once '../includes/verifyRequest.php';
 	require_once '../includes/dbOperations.php';
 
