@@ -19,6 +19,8 @@ import Snake from './../pages/game-pages/Snake';
 //import Numbers from './pages/game-pages/Numbers'
 import LeaderBoardTicTacToe from './../pages/leaderboard-pages/LeaderBoard-TicTacToe'
 import LeaderBoard2048 from './../pages/leaderboard-pages/LeaderBoard-2048'
+import LeaderBoardLetters from './../pages/leaderboard-pages/LeaderBoard-Letters'
+import LeaderBoardNumbers from './../pages/leaderboard-pages/LeaderBoard-Numbers'
 import LeaderBoardSpelling from './../pages/leaderboard-pages/LeaderBoard-Spelling'
 import LeaderBoardMatching from './../pages/leaderboard-pages/LeaderBoard-Matching'
 import LeaderBoardSliding from './../pages/leaderboard-pages/LeaderBoard-SlidingPuzzle'
@@ -57,6 +59,8 @@ function App() {
           <Route path='/leaderboard-pages/LeaderBoards' exact component={LeaderBoards} />
           <Route path='/leaderboard-pages/LeaderBoard-TicTacToe' exact component={LeaderBoardTicTacToe} />
           <Route path='/leaderboard-pages/LeaderBoard-2048' exact component={LeaderBoard2048} />
+          <Route path='/leaderboard-pages/LeaderBoard-Letters' exact component={LeaderBoardLetters} />
+          <Route path='/leaderboard-pages/LeaderBoard-Numbers' exact component={LeaderBoardNumbers} />
           <Route path='/leaderboard-pages/LeaderBoard-Spelling' exact component={LeaderBoardSpelling} />
           <Route path='/leaderboard-pages/LeaderBoard-Matching' exact component={LeaderBoardMatching} />
           <Route path='/leaderboard-pages/LeaderBoard-SlidingPuzzle' exact component={LeaderBoardSliding} />
