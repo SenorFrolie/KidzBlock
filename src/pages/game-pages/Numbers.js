@@ -27,11 +27,11 @@ justify-content: center;
 
 //Buttons for switching from game page to leaderboard
 const links = [
-  {name: "GamePage", path:"../game-pages/Letters"},
-  {name: "LeaderBoard", path:"/leaderboard-pages/LeaderBoard-Letters"},
+  {name: "GamePage", path:"../game-pages/Numbers"},
+  {name: "LeaderBoard", path:"/leaderboard-pages/LeaderBoard-Numbers"},
 ];
 
-function Letters() {
+function Numbers() {
   return (
     <>
       <div className="window">
@@ -45,11 +45,11 @@ function Letters() {
         </NavUnlisted>
       </div>
       <div className="playWindow">
-        <h1 className='gamePageHeading'>Letters</h1>
-        <iframe src="https://txstate.oscarfortanel.dev/CS3398/kidzblocks/games/word-game/" width="1000" height="1000" title="Letters"></iframe>
+        <h1 className='gamePageHeading'>Numbers</h1>
+        <iframe src="https://txstate.oscarfortanel.dev/CS3398/kidzblocks/games/numbersGame/" width="1000" height="1000" title="Numbers"></iframe>
       </div>
     </>
   );
 }
 
-export default Letters
+export default Numbers

@@ -8,6 +8,8 @@ import LettersNumbers from './../pages/category-pages/LettersNumbers';
 import ActionAdventure from './../pages/category-pages/ActionAdventure';
 import TicTacToe from './../pages/game-pages/TicTacToe'
 import My2048 from './../pages/game-pages/My2048'
+import Letters from './../pages/game-pages/Letters'
+import Numbers from './../pages/game-pages/Numbers'
 import Karts from './../pages/game-pages/Karts'
 import Spelling from './../pages/game-pages/Spelling'
 import Matching from './../pages/game-pages/Matching'
@@ -40,6 +42,8 @@ function App() {
 {/*Game pages */}
           <Route path='/game-pages/TicTacToe' exact component={TicTacToe} />
           <Route path='/game-pages/My2048' exact component={My2048} />
+          <Route path='/game-pages/Letters' exact component={Letters} />
+          <Route path='/game-pages/Numbers' exact component={Numbers} />
           <Route path='/game-pages/Karts' exact component={Karts} />
           <Route path='/game-pages/Spelling' exact component={Spelling} />
           <Route path='/game-pages/Matching' exact component={Matching} />
