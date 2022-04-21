@@ -1,3 +1,4 @@
+
 function Game(){
 	var randnum = [Math.floor(Math.random()*(25-1) + 1),Math.floor(Math.random()*(50-25) + 25),Math.floor(Math.random()*(75-50) + 50),Math.floor(Math.random()*(100-75) + 75)];
 	var size = Math.floor(Math.random()*(5-2)+2);
@@ -12,6 +13,8 @@ function Game(){
 		randnum[current] = randnum[num];
 		randnum[num] = temparray;
 	};	
+
+	
 
 	for(i = 0; i < size; i++){
 		var num = document.createElement("Button");
@@ -76,9 +79,11 @@ function timer(){
 	var time = $('#time').text();
 	var timer = setInterval(function(){
 		$('#time').text(--time);
-		if(time == 0){
-
+		if (time == 0) {
 			clearInterval(timer);
+		  }
+		},1000);
+		if(time == 0){
 
 			$('#label').fadeIn('fast');
 			$('#go').fadeIn('fast');
@@ -93,21 +98,11 @@ function timer(){
 			time = 30;
 			$('#time').text(time);
 
+
 			//send and recieve here
 			var name = window.prompt("Enter your name: ");
-			alert("Your name is " + name);
 
-			insertScore(5, highscore, name);
-			name.close();
-
-		}
-	},1000);
-}
-
-
-// Insert data to the data base
-function insertScore(g_id, score, name){
-	// request initializer
+			// request initializer
 	const xhr = new XMLHttpRequest();
 	// especify the API end-point
 	xhr.open("POST", "https://txstate.oscarfortanel.dev/CS3398/kidzblocks/api/v1/highScoreSubmit.php", true);
@@ -119,8 +114,8 @@ function insertScore(g_id, score, name){
 		// set requiered fields
 		data.append("api_token", "8b444736f91f991ce2ab67da833d8d784674a546f8b27d12461dd58992bb20b9");
 		data.append("name", name);
-		data.append("score", score);
-		data.append("g_id", g_id);
+		data.append("score", highscore);
+		data.append("g_id", 5);
 
 		// send request
 		xhr.send(data);
@@ -128,12 +123,22 @@ function insertScore(g_id, score, name){
 		// print out request response
 		xhr.onload = () => console.log(xhr.response);
 
-		for (var i = 0; i < 99999; i+=2)
+		for (var i = 0; i < 9999; i+=2)
 		{
 		  i--;
 		}
-		  location.reload();
+
+		alert("Your name is " + name + "\nYour score is  : " + highscore);
+
+		location.reload();
+
+		}
+		
+	
 }
+
+
+
 
 function Go(){
 	$('#intro').hide();
