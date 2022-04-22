@@ -1,0 +1,9 @@
+matching 	1
+sliding 	2
+2048		3
+letters		4
+numbers		5
+spelling	6
+cart		7
+snake		8
+tictactoe	9

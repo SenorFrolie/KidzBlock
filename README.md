@@ -248,12 +248,17 @@ We are missing web game development experience. None of the developers have ever
             * this commit was required a pull request which was completed by Robert Elizando 
     * My Next Steps:  will be working on media breaks to ensure the site is reposive on different devices and more refactoring of games to change re-used code as much as possible for the games (new images for game pieces, renaming games and adding our logo)
         
-        
-        
-        
-        
-    
-    
+# Sprint 3 - Contributions and Next Steps
+* Jake Elrod
+    * Jira Task: KID- 104- Find new Letters & Numbers games and update relative documents
+        * I found two new games for "letters" & "numbers" as well as updated the relevant documents. The README.md file was updated  
+        * to acknowledge the creators of the games. The document "9 Games - KID 21 - Elrod.pdf" was also updated to show these changes.
+        * 
+    * Jira Task: KID-
+        * 
+    * Jira Task: KID-
+        * 
+    * Next Steps:     
 
 # Acknowledgements
 * Logo by: Jacob Lopez 
@@ -271,11 +276,11 @@ We are missing web game development experience. None of the developers have ever
         * Reference: https://github.com/gabrielecirulli/2048
         * Creator: Gabriele Cirulli 
     * Game: Letters
-        * Reference: https://github.com/alejandrosobko/tikijuegos
-        * Creator: Alejandro Sobko
+        * Reference: https://github.com/rviscomi/word-game
+        * Creator: Rick Viscomi
     * Game: Numbers
-        * Reference: https://github.com/alejandrosobko/tikijuegos
-        * Creator: Alejandro Sobko
+        * Reference: https://github.com/Sujinthan/Speed-Game
+        * Creator: Sujinthan Satkunarajah
     * Game: Spelling
         * Reference: https://github.com/moof2k/wordgame	
         * Creator: Robert Rose
