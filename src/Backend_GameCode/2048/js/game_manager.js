@@ -84,7 +84,14 @@ GameManager.prototype.actuate = function () {
   if (this.storageManager.getBestScore() < this.score) {
     this.storageManager.setBestScore(this.score);
   }
-  
+
+	var timer = setInterval(function(){
+		$('#time').text(--time);
+		if (time == 0) {
+			clearInterval(timer);
+		  }
+		},1000);
+      
   if (this.score >= 2048) {
     const times = this.timer;
 
