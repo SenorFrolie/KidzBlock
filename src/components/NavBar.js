@@ -12,22 +12,25 @@ height: 80px
 display: flex;
 justify-content: flex-start;
 align-items: center;
+left: -100%
 `;
 
 const NavIcon = styled(Link)`
-  margin-left : 2rem;
+  margin-left : 1rem;
   font-size: 2rem;
-  height: 80px 
-  display: flex;
+  
+  height: 80px;
   justify-content: flex-start;
-  align-item: center;
+  align-items: center;
+  margin-top: auto;
+  margin-bottom: auto;
 
 `;
 
 const SideBarNav = styled.nav`
   background: aquamarine;
   width: 250px;
-  height: 100vh;
+  height: calc(var(NavIcon) * .8);
   display: flex;
   justify-content: center;
   position: fixed;
@@ -35,6 +38,9 @@ const SideBarNav = styled.nav`
   left: ${({sidebar}) => (sidebar ? '0': '-100%')};
   transition: 350ms;
   z-index:10;
+  border-radius: 15px;
+  align-item: center;
+
 `;
 
 const SideBarWrap = styled.div`
@@ -45,7 +51,6 @@ width: 100%;
 const NavBar = () => { 
 
   const [sidebar, setSidebar] = useState(false);
-
   const showSidebar = () => setSidebar(!sidebar);
 
   return <div>
