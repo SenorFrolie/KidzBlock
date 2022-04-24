@@ -1,18 +1,10 @@
-import React, {useState} from 'react'
+import React from 'react'
 import './css/LeaderBoard.css'
-import Profiles from './../../components/Profiles'
-import { Leaderboard } from './../../components/ProfileDataBase'
+import LBData from '../../components/get-LB-data/GetSlidingLBData'
 import { NavLink } from "react-router-dom"
 import styled from 'styled-components'
 
-
-/* Used to handle click events for filtering leaderboard by time */
 function LeaderBoard() {
-  const [period, setPeriod] = useState(0);
-
-  const handleClick = (e) =>{
-      setPeriod(e.target.dataset.id)
-  }
 
   const NavUnlisted = styled.ul`
   display: flex;
@@ -45,11 +37,12 @@ function LeaderBoard() {
   //Button Data
   const links = [
       {name: "GamePage", path:"../game-pages/Sliding"},
-      {name: "LeaderBoard", path:"/leaderboard-pages/LeaderBoard-SlidingPuzzle"},
+      {name: "LeaderBoard", path:"/leaderboard-pages/LeaderBoard-Sliding"},
   ];
 
   return (
     <>
+    {/*Makes the "GamePage" and "LeaderBoard" buttons */}
       <div className="window">
         <NavUnlisted>
           {links.map((link,index) => (
@@ -59,40 +52,14 @@ function LeaderBoard() {
           ))}
         </NavUnlisted>
       </div>
+
+      {/*Makes the leaderboard */}
       <div className="board">
-        <h1 className='leaderboard'>LeaderBoard Page</h1>
-        <div className="duration">
-          <button onClick={handleClick} data-id='7'>7 Days</button>
-          <button onClick={handleClick} data-id='30'>30 Days</button>
-          <button onClick={handleClick} data-id='0'>All Time</button>
-        </div>
-        {/*Sort the scores by time */}
-        <Profiles Leaderboard={between(Leaderboard, period)}></Profiles>
+        <h1 className='leaderboard'>Sliding LeaderBoard - Top 10</h1>
+      <LBData />
       </div>
     </>
   );
-}
-
-between(Leaderboard)
-
-function between(data, between){
-  const today = new Date();
-  const previous = new Date(today);
-  previous.setDate(previous.getDate() - (between+1));
-
-  let filter = data.filter(val => {
-    let userDate = new Date(val.dt);
-    if (between == 0) return val;
-    return previous <= userDate && today >= userDate;
-  })
-  return filter.sort((a,b)=> {
-    if (a.score == b.score){
-      return b.score-a.score;
-    } 
-    else{
-      return b.score-a.score;
-    }
-  })
 }
 
 export default LeaderBoard;
