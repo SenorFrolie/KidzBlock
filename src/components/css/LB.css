@@ -1,0 +1,36 @@
+
+.singleScore{
+    display: flex;
+    border-bottom: 4px solid gold;
+    margin-bottom: 5px;
+}
+
+.posts{
+    text-align: center;
+}
+
+.name {
+    flex: 50%;
+    display: inline-block;
+    border: 1px dotted white;
+    text-align: center;
+    margin-right: 50px;
+    color: rgb(78, 255, 62);
+    background-color: rgb(50, 1, 107, 0.5);
+    font-weight: bold;
+    font-size: 200%;
+
+    
+}
+.score{
+    flex: 50%;
+    display: inline-block;
+    border: 1px dotted white;
+    text-align: center;
+    margin-left: 50px;
+    color: rgb(78, 255, 62);
+    background-color: rgb(50, 1, 107, 0.5);
+    font-weight: bold;
+    font-size: 200%;
+
+}
