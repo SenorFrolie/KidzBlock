@@ -8,8 +8,8 @@ import { Link } from "react-router-dom"
 function Menu() {
 
     // Button data (image and name)
-    const [letters] = useState([{name: "Letters", url: "http://cs.txstate.edu/~rge15/alphabetGame.png"},]);
-    const [numbers] = useState([{name: "Numbers", url: "http://cs.txstate.edu/~rge15/numberGame.png"},]);
+    const [letters] = useState([{name: "Letters", url: "http://cs.txstate.edu/~rge15/letters.png"},]);
+    const [numbers] = useState([{name: "Numbers", url: "http://cs.txstate.edu/~rge15/numbers.png"},]);
     const [spelling] = useState([{name: "Spelling", url: "http://cs.txstate.edu/~rge15/spellingGame.png"},]);
 
     // Mapping button data to Buttons
