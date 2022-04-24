@@ -1,0 +1,46 @@
+<!--Test 2, did committing under issue branch-->
+<!--Wrong commit, correcting -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS API call</title>
+</head>
+<body>
+    <!--Click this button to excute request-->
+    <button id="subBtn">Click to send</button>
+</body>
+<script>
+    //access data here from varible from 2048
+
+    //send data to backend 
+</script>
+<script>
+    // request initializer
+    const xhr = new XMLHttpRequest();
+    // especify the API end-point
+    xhr.open("POST", "https://txstate.oscarfortanel.dev/CS3398/kidzblocks/api/v1/highScoreSubmit.php", true);
+    // declare data structure for data to be sent
+    data = new FormData();
+
+    // event listener for button
+    document.getElementById("subBtn").addEventListener("click", function(){
+        // debug message
+        console.log("Clicked\n");
+        // set requiered fields
+        data.append("api_token", "8b444736f91f991ce2ab67da833d8d784674a546f8b27d12461dd58992bb20b9");
+        data.append("name", "SAMPLE_NAME");
+        data.append("score", 2);
+        data.append("g_id", 1);
+
+        // send request
+        xhr.send(data);
+
+        // print out request response
+        xhr.onload = () => console.log(xhr.response);
+    })
+    
+</script>
+</html>

@@ -24,10 +24,11 @@ justify-content: center;
   }
 }
 `;
+
 //Buttons for switching from game page to leaderboard
 const links = [
-    {name: "Letters", path:"/game-pages/Letters"},
-    {name: "LeaderBoard", path:"/LeaderBoard"},
+  {name: "GamePage", path:"../game-pages/Letters"},
+  {name: "LeaderBoard", path:"/leaderboard-pages/LeaderBoard-Letters"},
 ];
 
 function Letters() {
@@ -45,7 +46,7 @@ function Letters() {
       </div>
       <div className="playWindow">
         <h1 className='gamePageHeading'>Letters</h1>
-        <iframe src="https://txstate.oscarfortanel.dev/CS3398/kidzblocks/games/Memory-Game/" width="1450" height="1000" title="Letters"></iframe>
+        <iframe src="https://txstate.oscarfortanel.dev/CS3398/kidzblocks/games/word-game/" width="1000" height="1000" title="Letters"></iframe>
       </div>
     </>
   );
