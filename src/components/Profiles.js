@@ -2,7 +2,7 @@ import React from 'react'
 
 function Profiles({Leaderboard}) {
   return (
-    <div id="profile">
+    <div id="entry">
         {Item(Leaderboard)}
     </div>
   )
@@ -15,25 +15,18 @@ function Item(data){
           data.map((value,index)=>(
             <div className="flex" key={index}>
             <div className="item">
-                <img src={value.img} alt=""></img>
                 <div className="info">
-                    <h3 classnae="name">{value.name}</h3>
-                    <span>{value.grade}</span>
+                    <h3 classname="name">{value.name}</h3>
                 </div>
             </div>
-            <div className="item">
+            <div className="score">
                 <span>{value.score}</span>
             </div>
             </div>
             )
           )
         }
-        </>
-
-
-
-
-        
+        </>  
     )
 }
 
