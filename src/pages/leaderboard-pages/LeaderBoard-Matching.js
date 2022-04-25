@@ -36,8 +36,8 @@ function LeaderBoard() {
 `;
   //Button Data
   const links = [
-      {name: "GamePage", path:"../game-pages/My2048"},
-      {name: "LeaderBoard", path:"/leaderboard-pages/LeaderBoard-2048"},
+      {name: "GamePage", path:"../game-pages/Matching"},
+      {name: "LeaderBoard", path:"/leaderboard-pages/LeaderBoard-Matching"},
   ];
 
   return (

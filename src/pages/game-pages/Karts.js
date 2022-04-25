@@ -24,17 +24,19 @@ justify-content: center;
   }
 }
 `;
+/*
 //Buttons for switching from game page to leaderboard
 const links = [
   {name: "GamePage", path:"/game-pages/Karts"},
   {name: "LeaderBoard", path:"/leaderboard-pages/LeaderBoard-Kart"},
 ];
+*/
 
 function Karts() {
   return (
     <>
       <div className="window">
-{/*Use NavLink to make the Buttons go to the correct pages */}
+{/*Use NavLink to make the Buttons go to the correct pages 
         <NavUnlisted>
           {links.map((link,index) => (
             <NavLink key={index} to={link.path} exact activeClassName="current">
@@ -42,6 +44,7 @@ function Karts() {
             </NavLink>
           ))}
         </NavUnlisted>
+*/}
       </div>
       <div className="playWindow">
         <h1 className='gamePageHeading'>Karts</h1>
