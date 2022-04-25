@@ -15,6 +15,7 @@ function Menu() {
     // Mapping button data to Buttons
     return (
         <div> 
+            <h1> Puzzle </h1>
             <div className="gameContainer">
                 {/* Matching Game Button */}
                 {matching.map(button => (
