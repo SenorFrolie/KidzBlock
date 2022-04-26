@@ -292,9 +292,12 @@ We are missing web game development experience. None of the developers have ever
         * to acknowledge the creators of the games. The document "9 Games - KID 21 - Elrod.pdf" was also updated to show these changes. This contribution
         * gave us two game to refactor and implement into our project because the previous two games chosen where decidably not going to work.
         * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/8fc765f5d8a2b057e1e31d2e57298539952f2f32
-    * Next Steps: If this project was to continue into the next sprint, my next steps would be to fix the "letters" game, at the moment it takes this 
-        * game about 15 seconds to load and this loading time could be sped up. I would also take it upon myself to fix the css of the user 
-        * interface that way it is more desirable by the user, an example would be fixing the size of the button images. We could also add more games.
+    * Next Steps: If this project was to continue into the next sprint, my next steps would be to fix the "letters" game, at the moment it  
+        * takes this game about 15 seconds to load and this loading time could be sped up. I would also take it upon myself to fix the css 
+        * of the user interface that way it is more desirable by the user, an example would be fixing the size of the button images and the 
+        * size and placement of the buttons. Although the game code for "numbers" and "tic tac toe" is correct, the back end emplementation 
+        * is incorrect. Durring the next sprint, I could help the teamate who emplemented the back end to fix the "numbers" and 
+        * "tic tac toe" games that way they are running correctly. We could also implemet advertisement to start creating revenue.
 
 # Acknowledgements
 * Logo by: Jacob Lopez 
