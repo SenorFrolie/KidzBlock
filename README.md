@@ -250,15 +250,51 @@ We are missing web game development experience. None of the developers have ever
         
 # Sprint 3 - Contributions and Next Steps
 * Jake Elrod
-    * Jira Task: KID- 104- Find new Letters & Numbers games and update relative documents
-        * I found two new games for "letters" & "numbers" as well as updated the relevant documents. The README.md file was updated  
-        * to acknowledge the creators of the games. The document "9 Games - KID 21 - Elrod.pdf" was also updated to show these changes.
-        * 
-    * Jira Task: KID-
-        * 
-    * Jira Task: KID-
-        * 
-    * Next Steps:     
+    * All of my tasks are associated to feature branches however, on Jira Sotware some of the task do not properly represent this even though
+    * Bitbucket shows that all tasks have branches which have a pull request and have been merged into master. Dr. Lehr is aware of this issue.
+    * Jira Task: KID- 84 - Implement "Letters" game into the website
+        * After the "letters" game was refactored, I would have the game posted on the back end or drive and then make a reference to it from that 
+        * game's html file. Durrign this implementation, some bugs may have been found and then fixed. This contribution allows the "letters" game 
+        * to be assessable from our website.
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/4f9c26bf74fe8821b07a70523c308b351049eb5c
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/d78990813c1dbc89110708e1e2a320df8029b953
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/98888ddb00581ac1242a4efdb30caa478c6ff2b6
+    * Jira Task: KID- 85 - Implement "Numbers" game into the website
+        * After the "numbers" game was refactored, I would have the game posted on the back end or drive and then make a reference to it from that 
+        * game's html file. Durrign this implementation, some bugs may have been found and then fixed. This contribution allows the "numbers" game 
+        * to be assessable from our website.
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/4f9c26bf74fe8821b07a70523c308b351049eb5c
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/d78990813c1dbc89110708e1e2a320df8029b953
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/6ebf05647018de1013ed9ab26533ed0a32f58d03
+    * Jira Task: KID- 86 - Refactor "Letters" game for leader board
+        * Durring this task, I created a maximum score of 25 in the game "letters." I also implemented a timer that starts at the beginning of the game. This way
+        * when the user reached the high score of 25 it would ask the user for their name. At this time, the name and score data is sent to the back end. 
+        * The prorgam then would out put their name and their high score, prompting the user to check the leader board to see if their score made it. This contribution
+        * enabled a high score and conected the game to the back end which constructs our leader board.
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/5f158fa9f0652507eb5f921ecc21ffdb7cc15d05
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/80aa396860dbc68b2ebbf109679ae39bb8ce9009
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/937c3f0e53eb3dab1ebf340371dd1f92f645528c
+    * Jira Task: KID- 87 - Refactor "2048" game for leader board
+        * Durring this task, I created a maximum score of 2048 in the game "2048." I also implemented a timer that starts at the beginning of the game. This way
+        * when the user reached the high score of 2048 it would ask the user for their name. At this time, the name and score data is sent to the back end. 
+        * The prorgam then would out put their name and their high score, prompting the user to check the leader board to see if their score made it. This contribution
+        * enabled a high score and conected the game to the back end which constructs our leader board. 
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/421f983267c5defe0014a69320aa508f0ab2eda1
+    * Jira Task: KID- 99 - Refactor "Numbers" game for leader board
+        * Durring this task, I used a timer that was already implemeneted into the game which starts at the beginning of the game and counts down from 30 to 
+        * the end of the game at 0. This way when the user reached the time of 0 it would ask the user for their name. At this time, the name and score  
+        * data is sent to the back end. The prorgam then would out put their name and their high score, prompting the user to check the leader board to see if their 
+        * score made it. This contribution enabled a high score and conected the game to the back end which constructs our leader board.
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/6c14c46e69c448da47685c74d990c2b1241d3b52
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/bd6f5939f26cbaceb6a940afc4f86d283aa32205
+    * Jira Task: KID- 104 - Find new Letters & Numbers games and update relative documents
+        * I found two new games for "letters" & "numbers" as well as updated the relevant documents. The README.md file was updated
+        * to acknowledge the creators of the games. The document "9 Games - KID 21 - Elrod.pdf" was also updated to show these changes. This contribution
+        * gave us two game to refactor and implement into our project because the previous two games chosen where decidably not going to work.
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/8fc765f5d8a2b057e1e31d2e57298539952f2f32
+    * Next Steps: If this project was to continue into the next sprint, my next steps would be to fix the "letters" game, at the moment it takes this 
+        * game about 15 seconds to load and this loading time could be sped up. I would also take it upon myself to fix the css of the user 
+        * interface that way it is more desirable by the user, an example would be fixing the size of the button images. We could also add more games.
 
 # Acknowledgements
 * Logo by: Jacob Lopez 
