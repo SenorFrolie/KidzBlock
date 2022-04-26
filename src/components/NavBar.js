@@ -7,8 +7,8 @@ import { SidebarData } from './SidebarData';
 import SubMenu from './SubMenu';
 
 const Nav = styled.div `
-background: aquamarine
-height: 80px
+
+height: 40vh:
 display: flex;
 justify-content: flex-start;
 align-items: center;
@@ -28,7 +28,7 @@ const NavIcon = styled(Link)`
 `;
 
 const SideBarNav = styled.nav`
-  background: aquamarine;
+  background: rgb(0,139,189);
   width: 250px;
   height: calc(var(NavIcon) * .8);
   display: flex;
@@ -37,6 +37,7 @@ const SideBarNav = styled.nav`
   top: 0;
   left: ${({sidebar}) => (sidebar ? '0': '-100%')};
   transition: 350ms;
+  
   z-index:10;
   border-radius: 15px;
   align-item: center;

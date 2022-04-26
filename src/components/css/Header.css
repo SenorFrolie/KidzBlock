@@ -11,11 +11,13 @@
     height: 100px;
     align-items: center;
     object-fit: contain;
+    color: 008BBD;
 }
 
 
 
 .header__icon{
     padding: 0px;
+    color: 008BBD;
 }
 
