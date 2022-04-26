@@ -2,6 +2,7 @@ import React from 'react'
 import * as AiIcons from "react-icons/ai";
 import * as IoIcons from "react-icons/io";
 import * as RiIcons from "react-icons/ri";
+import './css/SideBar.css';
 //import * as FaIcons from "react-icons/fa";
 
 export const SidebarData = [{
@@ -11,6 +12,7 @@ export const SidebarData = [{
     icon: <AiIcons.AiFillHome />,
     iconClosed: <RiIcons.RiArrowDownSFill />,
     iconOpened: <RiIcons.RiArrowDropUpFill />,
+    color: "0088B9"
 
 },
     {
@@ -26,16 +28,19 @@ export const SidebarData = [{
                 title: 'Matching',
                 path: '/game-pages/Matching',
                 icon: <IoIcons.IoIosSchool />,
+                color: "0088B9"
             },
             {
                 title: 'Sliding Puzzle',
                 path: '/game-pages/Sliding',
                 icon: <IoIcons.IoIosSchool />,
+                color: "0088B9"
             },
             {
                 title: '2048',
                 path: '/game-pages/My2048',
                 icon: <IoIcons.IoIosSchool />,
+                color: "0088B9"
             },
         ]
     },
