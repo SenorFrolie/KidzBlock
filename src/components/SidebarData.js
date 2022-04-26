@@ -50,12 +50,12 @@ export const SidebarData = [{
         subNav:[
             {
                 title: 'Letters',
-                path: '/game-pages/GamePage',
+                path: '/game-pages/Letters',
                 icon: <IoIcons.IoIosSchool />,
             },
             {
                 title: 'Numbers',
-                path: '/game-pages/GamePage',
+                path: '/game-pages/Numbers',
                 icon: <IoIcons.IoIosSchool />,
             },
             {
@@ -98,40 +98,3 @@ export const SidebarData = [{
 
     }
 ];
-
-
-/*
-export const SidebarData = [
-    {
-        title: 'Home',
-        path: '/',
-        icon: <AiIcons.AiFillHome />,
-        cName: 'nav-text'    
-    },
-    {
-        title: 'FirstnSecond',
-        path: '/FirstnSecond',
-        icon: <IoIcons.IoIosSchool />,
-        cName: 'nav-text'    
-    },
-    {
-        title: 'ThirdnFourth',
-        path: '/ThirdnFourth',
-        icon: <IoIcons.IoIosSchool />,
-        cName: 'nav-text'    
-    },
-    {
-        title: 'FifthnSix',
-        path: '/FifthnSix',
-        icon: <IoIcons.IoIosSchool />,
-        cName: 'nav-text'   
-    },
-    {
-        title: 'LeaderBoard',
-        path: '/LeaderBoard',
-        icon: <IoIcons.IoIosSchool />,
-        cName: 'nav-text'    
-    },
-
-]
-*/

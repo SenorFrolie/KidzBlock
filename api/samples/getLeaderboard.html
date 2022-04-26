@@ -1,0 +1,63 @@
+<!--Test 2, did committing under issue branch again-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS API call</title>
+</head>
+<body>
+    <!--Click this button to excute request-->
+    <button id="subBtn">Click to send</button>
+    <div><p id="result"></p><p id="parsed"></p></div>
+</body>
+<script>
+    // request initializer
+    const xhr = new XMLHttpRequest();
+    // specify the API end-point
+    xhr.open("POST", "https://txstate.oscarfortanel.dev/CS3398/kidzblocks/api/v1/getLeaderboard.php", true);
+    // declare data structure for data to be sent
+    data = new FormData();
+
+    // event listener for button
+    document.getElementById("subBtn").addEventListener("click", function(){
+        // debug message
+        console.log("Clicked\n");
+        // set required fields
+        data.append("api_token", "8b444736f91f991ce2ab67da833d8d784674a546f8b27d12461dd58992bb20b9");
+        data.append("g_id", 1);
+        data.append("quantity", 30);
+
+        // send request
+        xhr.send(data);
+
+        // print out request response
+        xhr.onload = function(){
+            console.log(xhr.responseText);
+            document.getElementById("result").innerHTML = xhr.responseText;
+
+            const json = xhr.responseText;
+            const obj = JSON.parse(json);
+
+            console.log(obj.error);
+            console.log(obj.message);
+            
+            obj.scores.forEach(element => {
+                console.log(element.name);
+                console.log(element.score);
+                console.log(element.g_id);
+                console.log(element.date);
+            });
+
+            let html = "Error: " + obj.error + "<br> Message: " + obj.message + "<br>Quantity: " + obj.quantity + "<br>Scores:<br><br>";
+            obj.scores.forEach(element=>{
+                html += "Name: " + element.name + "<br>Score: " + element.score + "<br>g_id: " + element.g_id + "<br>Date: " + element.date + "<br><br>";
+            });
+
+            document.getElementById("parsed").innerHTML = html;
+        }
+    })
+    
+</script>
+</html>

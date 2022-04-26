@@ -21,10 +21,21 @@
 
 */
 
+.leaderboard{
 
+    flex: 50%;
+    display: inline-block;
+    color:rgb(78, 255, 62);
+    background-color: rgb(50, 1, 107, 0.5);
+
+    font-weight: bold;
+    font-size: 200%;
+    text-align: center;
+    border-bottom: 5px solid gold;
+
+}
 .board {
     text-align: center;
-    border-radius: 10%;
     border-color: #ebebeb;
     border-style: ridge;
     margin:5%;
@@ -173,4 +184,24 @@
 .h1 .h2{
     color: rgb(78, 255, 62);
     background-color: rgb(50, 1, 107);
+}
+
+.title{
+    color:rgb(78, 255, 62);
+    background-color: rgb(50, 1, 107, 0.5);
+
+    font-weight: bold;
+    font-size: 150%;
+    text-align: center;
+    border-bottom: 5px solid gold;
+}
+
+.mainTitle{
+    color:rgb(78, 255, 62);
+    background-color: rgb(50, 1, 107, 0.75);
+
+    font-weight: bold;
+    font-size: 400%;
+    text-align: center;
+    border-bottom: 5px solid gold;
 }

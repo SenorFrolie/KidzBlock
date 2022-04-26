@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="styles.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <script src="script.js" async></script>
+  <title>KidsBlocks Matching Game</title>
+</head>
+
+<body>
+  <div class="title-container">
+    <h1 class="page-title">KidsBlocks Matching Game</h1>
+  </div>
+
+
+  <div class="overlay-text visible">
+    Click to start
+  </div>
+
+  <div id="game-over-text" class="overlay-text">
+    You lost . . .
+
+    <span class="overlay-text-small">Click To Play</span>
+
+  </div>
+
+
+  <div id="victory-text" class="overlay-text">
+    VICTORY!
+    <script>
+      insertScore(1, timeRemaining, name);
+    </script>
+
+    <span class="overlay-text-small">Click To Play</span>
+  </div>
+
+  </div>
+
+  <div class="game-container">
+    <div class="game-info-container">
+      <div class="game-info">
+        Time <span id="time-remaining">100</span>
+      </div>
+      <div class="game-info">
+        Flips <span id="flips">0</span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="KidsBlocks" src="Assets/Images/KidzBlocks(ShortHand).png">
+      </div>
+      <div class="card-front card-face">
+
+        <img class="card-value" src="Assets/Images/Watch.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="KidsBlocks" src="Assets/Images/KidzBlocks(ShortHand).png">
+      </div>
+      <div class="card-front card-face">
+
+        <img class="card-value" src="Assets/Images/Watch.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="KidsBlocks" src="Assets/Images/KidzBlocks(ShortHand).png">
+      </div>
+      <div class="card-front card-face">
+ 
+        <img class="card-value" src="Assets/Images/Podium.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="KidsBlocks" src="Assets/Images/KidzBlocks(ShortHand).png">
+      </div>
+      <div class="card-front card-face">
+
+        <img class="card-value" src="Assets/Images/Podium.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="KidsBlocks" src="Assets/Images/KidzBlocks(ShortHand).png">
+      </div>
+
+      <div class="card-front card-face">
+
+        <img class="card-value" src="Assets/Images/Cards.png">
+      </div>
+
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="KidsBlocks" src="Assets/Images/KidzBlocks(ShortHand).png">
+      </div>
+      <div class="card-front card-face">
+
+        <img class="card-value" src="Assets/Images/Cards.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="KidsBlocks" src="Assets/Images/KidzBlocks(ShortHand).png">
+      </div>
+      <div class="card-front card-face">
+
+        <img class="card-value" src="Assets/Images/Reindeer.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="KidsBlocks" src="Assets/Images/KidzBlocks(ShortHand).png">
+      </div>
+      <div class="card-front card-face">
+
+        <img class="card-value" src="Assets/Images/Reindeer.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="KidsBlocks" src="Assets/Images/KidzBlocks(ShortHand).png">
+      </div>
+      <div class="card-front card-face">
+    
+        <img class="card-value" src="Assets/Images/Snow.jpg">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="KidsBlocks" src="Assets/Images/KidzBlocks(ShortHand).png">
+      </div>
+      <div class="card-front card-face">
+     
+        <img class="card-value" src="Assets/Images/Snow.jpg">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="KidsBlocks" src="Assets/Images/KidzBlocks(ShortHand).png">
+      </div>
+      <div class="card-front card-face">
+       
+        <img class="card-value" src="Assets/Images/Elf.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="KidsBlocks" src="Assets/Images/KidzBlocks(ShortHand).png">
+      </div>
+      <div class="card-front card-face">
+       
+        <img class="card-value" src="Assets/Images/Elf.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="KidsBlocks" src="Assets/Images/KidzBlocks(ShortHand).png">
+      </div>
+      <div class="card-front card-face">
+        
+        <img class="card-value" src="Assets/Images/Socks.jpg">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="KidsBlocks" src="Assets/Images/KidzBlocks(ShortHand).png">
+      </div>
+      <div class="card-front card-face">
+       
+        <img class="card-value" src="Assets/Images/Socks.jpg">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="KidsBlocks" src="Assets/Images/KidzBlocks(ShortHand).png">
+      </div>
+      <div class="card-front card-face">
+       
+        <img class="card-value" src="Assets/Images/Candycane.png">
+      
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="KidsBlocks" src="Assets/Images/KidzBlocks(ShortHand).png">
+      </div>
+      <div class="card-front card-face">
+        
+        <img class="card-value" src="Assets/Images/Candycane.png">
+    
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
