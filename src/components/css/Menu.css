@@ -55,11 +55,11 @@
 
 .gameCard {
     position: relative;
-    width: 600px;
+    width: 480px;
     padding: 20px;
     max-width: 185vw;
     max-height: 50vh;
-    height: 50vh;
+    height: 25vh;
     border-radius: 20px;
     background-size: cover;
     background-position: center;
