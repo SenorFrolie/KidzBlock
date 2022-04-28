@@ -299,6 +299,22 @@ We are missing web game development experience. None of the developers have ever
         * is incorrect. Durring the next sprint, I could help the teamate who emplemented the back end to fix the "numbers" and 
         * "tic tac toe" games that way they are running correctly. We could also implemet advertisement to start creating revenue.
 
+* Robert Elizondo
+    * Jira Task: KID-106 - Update button art for "Letters" and "Numbers" / add leaderboard pages for them
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/0cf54083e0c812aaadd9f436bdcdccdbd93508d5
+        * For this task I updated the button art to reflect the new games, and added the relevant leaderboard pages.
+    * Jira Task: KID-88 - figure out how to capture/send data from back-end servers to update our leaderboards, and implement this in a way that we can test/play around with
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/69c8d8c4bebb093a34954dabd8f3b056fb8bbf91
+        * For this task I got the leaderboards to pull information off the database and update the leaderboard for the Numbers game.
+    * Jira Task: KID-89 - Implement the code that will update the leaderboards with the new data coming from the back-end for Letters and Spelling
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/f1a399502a5e33a8ef94320ee6fd9c30b9443f6b
+        * For this task I added functioning leaderboards to the Letters and Spelling games.
+    * Jira Task: KID-90 - Implement the code that will update the leaderboards with the new data coming from the back-end for 2048 and Matching
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/bedfd99a25b36affbcefe15be0fc447b57f3db4c
+        * For this task I added functioning leaderboards to the Matching and 2048 games.
+    * Next Steps: Next I would probably be writing unit tests for the leaderboards, as well as checking that the games render correctly.
+
+* 
 # Acknowledgements
 * Logo by: Jacob Lopez 
     * Referenced: EnvatoElements.com
