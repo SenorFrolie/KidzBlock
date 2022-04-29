@@ -314,6 +314,21 @@ We are missing web game development experience. None of the developers have ever
         * For this task I added functioning leaderboards to the Matching and 2048 games.
     * Next Steps: Next I would probably be writing unit tests for the leaderboards, as well as checking that the games render correctly.
     
+* Robert Elizondo
+    * Jira Task: KID-106 - Update button art for "Letters" and "Numbers" / add leaderboard pages for them
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/0cf54083e0c812aaadd9f436bdcdccdbd93508d5
+        * For this task I updated the button art to reflect the new games, and added the relevant leaderboard pages.
+    * Jira Task: KID-88 - figure out how to capture/send data from back-end servers to update our leaderboards, and implement this in a way that we can test/play around with
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/69c8d8c4bebb093a34954dabd8f3b056fb8bbf91
+        * For this task I got the leaderboards to pull information off the database and update the leaderboard for the Numbers game.
+    * Jira Task: KID-89 - Implement the code that will update the leaderboards with the new data coming from the back-end for Letters and Spelling
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/f1a399502a5e33a8ef94320ee6fd9c30b9443f6b
+        * For this task I added functioning leaderboards to the Letters and Spelling games.
+    * Jira Task: KID-90 - Implement the code that will update the leaderboards with the new data coming from the back-end for 2048 and Matching
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/bedfd99a25b36affbcefe15be0fc447b57f3db4c
+        * For this task I added functioning leaderboards to the Matching and 2048 games.
+    * Next Steps: Next I would probably be writing unit tests for the leaderboards, as well as checking that the games render correctly.
+    
 * Oscar Fortanel Benitez
     * Jira Task: KID-97 - Make script 2.0 for sending data to API
         * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/6962f6a4bafd0159d5c7dc4f00c5e7f7a0024754
@@ -328,6 +343,18 @@ We are missing web game development experience. None of the developers have ever
         * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/07e000ad8d9dcc0818fc5e58239c72b81960a941
         * Changed logic on submitHighScore end-point to save all submited scores instead of only high scores.
     * Next Steps: We could continue the project by adding user accounts so that users can save the scores to their account and so that preferences can be saved.
+    
+* Jacob Lopez
+    * Jira Task: KID-100 - Host/Deploy Website 
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/56102327f81c4c7dd53f6a9eb10be539b930531b
+        * Deployed the website to be hosted through vercel 
+    * Jira Task: KID-101 - Refactor existing games with KidsBlocks logos and colors
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/672b5ebaf9c8694cfee18a967671653e3bca4838
+        * Refactored games 
+    * Jira Task: KID-102 - add media breaks to make games responsive on mobile devices
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/672b5ebaf9c8694cfee18a967671653e3bca4838
+        * changed various colors fonts sizing, media breaks to alter the overall front end of the applicaiton 
+    * Next Steps:Add some type of example of each gaming playing so the website is more dynamic
 
 * 
 # Acknowledgements
