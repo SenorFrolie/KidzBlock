@@ -313,6 +313,21 @@ We are missing web game development experience. None of the developers have ever
         * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/bedfd99a25b36affbcefe15be0fc447b57f3db4c
         * For this task I added functioning leaderboards to the Matching and 2048 games.
     * Next Steps: Next I would probably be writing unit tests for the leaderboards, as well as checking that the games render correctly.
+    
+* Oscar Fortanel Benitez
+    * Jira Task: KID-97 - Make script 2.0 for sending data to API
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/6962f6a4bafd0159d5c7dc4f00c5e7f7a0024754
+        * Created quick script as example to send data to the data base.
+    * Jira Task: KID-98 - Create sample script to call getLeaderboard API
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/2a388c86affb48bc381be8be086afbb72f175b11
+        * Created sample script as example on how to pull the leaderboards from the data base.
+    * Jira Task: KID-95 - Implement leaderboard endpoint
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/b08cd648dccf19aa072d51ebc0c7b76fd69f0c2b
+        * Implemented and deployed getLeaderboard end-point to retreive list of scores.
+    * Jira Task: KID-96 - Change score intake to store all scores
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/07e000ad8d9dcc0818fc5e58239c72b81960a941
+        * Changed logic on submitHighScore end-point to save all submited scores instead of only high scores.
+    * Next Steps: We could continue the project by adding user accounts so that users can save the scores to their account and so that preferences can be saved.
 
 * 
 # Acknowledgements
