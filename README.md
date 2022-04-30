@@ -356,7 +356,17 @@ We are missing web game development experience. None of the developers have ever
         * changed various colors fonts sizing, media breaks to alter the overall front end of the applicaiton 
     * Next Steps:Add some type of example of each gaming playing so the website is more dynamic
 
-* 
+* Robert Bonham 
+    
+    * Jira Task: KID-92 - Redesign game page for the "matching game"
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/c175fbc3f44177f04a2a129d01e0b16b17883f04
+    * Jira Task: KID-93 - Implement a new function for matching-game to send data to the backend
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/be4d3160121ce3cb7751c07b56f56bffe6b76830
+    * Jira Task: KID-94 - help with the clean up of the website
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/d130d486d46cc2ff4be159982b2a2096ec957d3c
+    * Jira Task: KID-107 -Implement a new function for wordgame to send data to the backend
+        * https://bitbucket.org/cs3398-s22-betazoids/kidzblocks/commits/54cdcf30b859a5d44c47c815426cc19c72554356
+    
 # Acknowledgements
 * Logo by: Jacob Lopez 
     * Referenced: EnvatoElements.com
